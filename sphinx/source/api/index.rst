@@ -1,5 +1,5 @@
-.Profile API
-=============
+dotGuacamole API
+=================
 
 .. toctree::
    :maxdepth: 1
