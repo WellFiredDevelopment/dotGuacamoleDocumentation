@@ -1,7 +1,8 @@
 global.config = {
     name:           'WellFired.Profile.Documentation',
     sphinxInputDir: 'xml',
-    sphinxOutputDir:'sphinx/source'
+    sphinxOutputDir:'sphinx/source',
+    sphinxProjectName: 'dotGuacamole'
 }
 
 module.exports = {
