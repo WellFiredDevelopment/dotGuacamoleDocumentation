@@ -1,4 +1,4 @@
-.Peek Documentation
+dotGuacamole Documentation
 ======================
 
 The table of contents below and in the sidebar should let you easily access the
