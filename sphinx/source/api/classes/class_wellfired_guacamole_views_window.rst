@@ -13,6 +13,20 @@ Description
 
 
 
+public-static-attrib
+---------------------
+
++------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`WindowCloseCommandProperty<classwellfired_guacamole_views_window_1a27437650f483eb77099a267e4e1d5603>`    |
++------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+
+
+Properties
+-----------
+
++---------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+|:ref:`ICommand<interfacewellfired_guacamole_icommand>`   |:ref:`WindowCloseCommand<classwellfired_guacamole_views_window_1af514b9d126be6905bbbbee063a64e5c6>` **{** get; set; **}**   |
++---------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
+
 Public Methods
 ---------------
 
@@ -37,6 +51,14 @@ protected-func
 
 Breakdown
 ----------
+
+.. _classwellfired_guacamole_views_window_1a27437650f483eb77099a267e4e1d5603:
+
+- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **WindowCloseCommandProperty** 
+
+.. _classwellfired_guacamole_views_window_1af514b9d126be6905bbbbee063a64e5c6:
+
+- :ref:`ICommand<interfacewellfired_guacamole_icommand>` **WindowCloseCommand** **{** get; set; **}**
 
 .. _classwellfired_guacamole_views_window_1a6cc7b6e433f1da073217a507d045c528:
 
