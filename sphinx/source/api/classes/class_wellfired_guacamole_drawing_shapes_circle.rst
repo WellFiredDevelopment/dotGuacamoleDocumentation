@@ -19,7 +19,7 @@ Public Methods
 +-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |             |:ref:`Circle<classwellfired_guacamole_drawing_shapes_circle_1a083b7d65021b85692515d8c8d82fbe38>` **(** :ref:`Vector<structwellfired_guacamole_drawing_vector>` center, double radius, double thickness, :ref:`ByteColor<structwellfired_guacamole_drawing_bytecolor>` background, :ref:`ByteColor<structwellfired_guacamole_drawing_bytecolor>` outline **)**   |
 +-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Rasterize<classwellfired_guacamole_drawing_shapes_circle_1a702e7e8652819759174197b3c3f14f62>` **(** byte [] byteData, int width, int height **)**                                                                                                                                                                                                         |
+|void         |:ref:`Rasterize<classwellfired_guacamole_drawing_shapes_circle_1a702e7e8652819759174197b3c3f14f62>` **(** byte[] byteData, int width, int height **)**                                                                                                                                                                                                          |
 +-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
@@ -31,5 +31,5 @@ Breakdown
 
 .. _classwellfired_guacamole_drawing_shapes_circle_1a702e7e8652819759174197b3c3f14f62:
 
-- void **Rasterize** **(** byte [] byteData, int width, int height **)**
+- void **Rasterize** **(** byte[] byteData, int width, int height **)**
 

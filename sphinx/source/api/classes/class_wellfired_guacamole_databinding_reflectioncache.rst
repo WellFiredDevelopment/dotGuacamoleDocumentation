@@ -13,9 +13,9 @@ Description
 Properties
 -----------
 
-+----------------+--------------------------------------------------------------------------------------------------------------------------------+
-|MemberInfo []   |:ref:`Members<classwellfired_guacamole_databinding_reflectioncache_1a263b694533b8db716338400eac7b133c>` **{** get; set; **}**   |
-+----------------+--------------------------------------------------------------------------------------------------------------------------------+
++---------------+--------------------------------------------------------------------------------------------------------------------------------+
+|MemberInfo[]   |:ref:`Members<classwellfired_guacamole_databinding_reflectioncache_1a263b694533b8db716338400eac7b133c>` **{** get; set; **}**   |
++---------------+--------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -38,7 +38,7 @@ Breakdown
 
 .. _classwellfired_guacamole_databinding_reflectioncache_1a263b694533b8db716338400eac7b133c:
 
-- MemberInfo [] **Members** **{** get; set; **}**
+- MemberInfo[] **Members** **{** get; set; **}**
 
 .. _classwellfired_guacamole_databinding_reflectioncache_1a6c189e58fa01de01284defe081439724:
 

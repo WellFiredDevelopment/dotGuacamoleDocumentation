@@ -25,7 +25,7 @@ Public Methods
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`RasterizeWithWidthAndAA<classwellfired_guacamole_drawing_shapes_rectdefinedellipse_1a1c664911691903df0f5009fd9e11b742>` **(** :ref:`RawImage<classwellfired_guacamole_drawing_rawimage>` image, :ref:`UIColor<structwellfired_guacamole_data_uicolor>` color **)**   |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Rasterize<classwellfired_guacamole_drawing_shapes_rectdefinedellipse_1a33d77ef8cb14110f7b2e85a7f56760d7>` **(** byte [] byteData, int width, int height **)**                                                                                                        |
+|void         |:ref:`Rasterize<classwellfired_guacamole_drawing_shapes_rectdefinedellipse_1a33d77ef8cb14110f7b2e85a7f56760d7>` **(** byte[] byteData, int width, int height **)**                                                                                                         |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
@@ -49,5 +49,5 @@ Breakdown
 
 .. _classwellfired_guacamole_drawing_shapes_rectdefinedellipse_1a33d77ef8cb14110f7b2e85a7f56760d7:
 
-- void **Rasterize** **(** byte [] byteData, int width, int height **)**
+- void **Rasterize** **(** byte[] byteData, int width, int height **)**
 

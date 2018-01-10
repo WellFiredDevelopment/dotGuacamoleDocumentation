@@ -13,14 +13,14 @@ Description
 Public Methods
 ---------------
 
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Rasterize<interfacewellfired_guacamole_drawing_shapes_irasterizableshape_1a43c190cefebd7580f9f12d7430c73ef7>` **(** byte [] byteData, int width, int height **)**   |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Rasterize<interfacewellfired_guacamole_drawing_shapes_irasterizableshape_1a43c190cefebd7580f9f12d7430c73ef7>` **(** byte[] byteData, int width, int height **)**   |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
 .. _interfacewellfired_guacamole_drawing_shapes_irasterizableshape_1a43c190cefebd7580f9f12d7430c73ef7:
 
-- void **Rasterize** **(** byte [] byteData, int width, int height **)**
+- void **Rasterize** **(** byte[] byteData, int width, int height **)**
 
