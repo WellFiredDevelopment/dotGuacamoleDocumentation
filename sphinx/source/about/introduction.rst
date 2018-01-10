@@ -26,8 +26,13 @@ This documentation is organised in five sections, the way it is split up should 
 
 - The :ref:`sec-general` section contains this introduction as well as general information on the tool It also contains
   the :ref:`doc_faq`.
-- The :ref:`sec-learn` section is the the main entry point of this documentation, as it contains all the necessary
+- The :ref:`sec-learn` section is the the first entry point of this documentation, as it contains all the necessary
   information on using the tool. It starts with the :ref:`Step by step<toc-learn-step_by_step>` tutorial which should be
   the entry point for all new users.
+- The :ref:`sec-fundamentals` section is required reading for anyone intending to use .Guacamole, as it contains all the
+  necessary information on using the library. Read this section for an overview of the main concepts used in .Guacamole.
+- The :ref:`sec-views` and :ref:`sec-layouts` sections go over every view and layout included with .Guacamole.
+- The :ref:`sec-automation` section is optional reading, but goes over the automation of your application. This is
+  incredibly useful for anyone that wants to test their end product in a real world environment.
 - Finally, the :ref:`sec-class-ref` is the documentation of the .Profile API. It is generated automatically from a
   files in the main repository, and the generated files of the documentation are therefore not meant to be modified.

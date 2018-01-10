@@ -27,8 +27,57 @@ The main documentation for the site is organized into the following sections:
     :caption: Getting Started
     :name: sec-learn
 
-    learn/step_by_step/index
-    learn/advanced/index
+    learn/installing/index
+    learn/samples/index
+    learn/hello_dot_guacamole/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Fundamentals
+    :name: sec-fundamentals
+
+    fundamentals/application/index
+    fundamentals/window/index
+    fundamentals/custom_renderer/index
+    fundamentals/data_binding/index
+    fundamentals/device/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Views
+    :name: sec-views
+
+    views/label_view/index
+    views/number_entry_view/index
+    views/text_entry_view/index
+    views/button_view/index
+    views/slider_view/index
+    views/toggle_view/index
+    views/image_view/index
+    views/list_view/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Layouts
+    :name: sec-layouts
+
+    layouts/adjacent_layout/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Pages
+    :name: sec-pages
+
+    pages/page/index
+    pages/tabbed_page/index
+    pages/master_detail_page/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Automation
+    :name: sec-automation
+
+    automation/index
 
 .. toctree::
     :maxdepth: 1
