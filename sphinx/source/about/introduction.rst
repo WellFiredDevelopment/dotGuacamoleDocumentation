@@ -6,6 +6,22 @@ Introduction
 This page aims at giving a broad presentation of the tool and of the contents of this documentation, so that you know
 where to start if you are a beginner or where to look if you need info on a specific feature.
 
+Why .Guacamole
+--------------
+
+Unity provides it's own implementation for writing editor code, that is completely fine to use for small scale projects.
+When you start to build more complex applications with Unity's provided GUI classes, you will quickly find that your
+applications become difficult to manage and maintain. One of our biggest grievances with Unity's codebase in general is
+that it's quite hard to test.
+
+.Guacamole tries to alleviate these problems by introducing the following concepts to Unity Developers.
+
+* Strict separation of concerns brought through Data-Binding and MVVM.
+
+* A flexible, extensible View Framework, with more customisation options.
+
+* An automation framework, allowing users to writing descriptive tests, mimicking user interaction.
+
 About the documentation
 -----------------------
 
