@@ -13,6 +13,8 @@ interest. You can also use the search function in the top left corner.
             If you have a technical question, please feel free to contact us through our keybase team
             wellfiredltd.technicalsupport
 
+.. warning:: This software is still in Alpha, please don't use it for commercial purposes.
+
 The main documentation for the site is organized into the following sections:
 
 .. toctree::
@@ -28,6 +30,7 @@ The main documentation for the site is organized into the following sections:
     :name: sec-learn
 
     learn/installing/index
+    learn/package_structure/index
     learn/samples/index
     learn/hello_dot_guacamole/index
 
