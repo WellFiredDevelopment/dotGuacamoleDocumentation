@@ -5,7 +5,7 @@ FilterView
 
 **Namespace:** :ref:`WellFired.Guacamole<namespacewellfired_guacamole>`
 
-**Inherits:** :ref:`WellFired.Guacamole.Views.TextEntry<classwellfired_guacamole_views_textentry>`
+**Inherits:** :ref:`WellFired.Guacamole.Views.TextEntryView<classwellfired_guacamole_views_textentryview>`
 
 
 Description

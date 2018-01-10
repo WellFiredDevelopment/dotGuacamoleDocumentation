@@ -1,4 +1,4 @@
-.. _classwellfired_guacamole_views_page:
+.. _classwellfired_guacamole_pages_page:
 
 Page
 =====
@@ -17,35 +17,35 @@ public-static-attrib
 ---------------------
 
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
-|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`TitleProperty<classwellfired_guacamole_views_page_1a7c2c0935d9cf83d3652ae526ef6ae1f0>`    |
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`TitleProperty<classwellfired_guacamole_pages_page_1ae749e4a8ae4faeb0f7bfbea2081316d2>`    |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
 Properties
 -----------
 
 +-------------+-------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`Title<classwellfired_guacamole_views_page_1a4e073ba425ceec1d5e3d02095c14420e>` **{** get; set; **}**   |
+|string       |:ref:`Title<classwellfired_guacamole_pages_page_1aab2227da910cd80b7219beba999bdd5c>` **{** get; set; **}**   |
 +-------------+-------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
 
 +-------------+---------------------------------------------------------------------------------------------------+
-|             |:ref:`Page<classwellfired_guacamole_views_page_1a9d4e9a2290262b6cff0591476bb16855>` **(**  **)**   |
+|             |:ref:`Page<classwellfired_guacamole_pages_page_1af740f85cc5e156ea2af3b1df74b23b68>` **(**  **)**   |
 +-------------+---------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_views_page_1a7c2c0935d9cf83d3652ae526ef6ae1f0:
+.. _classwellfired_guacamole_pages_page_1ae749e4a8ae4faeb0f7bfbea2081316d2:
 
 - readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **TitleProperty** 
 
-.. _classwellfired_guacamole_views_page_1a4e073ba425ceec1d5e3d02095c14420e:
+.. _classwellfired_guacamole_pages_page_1aab2227da910cd80b7219beba999bdd5c:
 
 - string **Title** **{** get; set; **}**
 
-.. _classwellfired_guacamole_views_page_1a9d4e9a2290262b6cff0591476bb16855:
+.. _classwellfired_guacamole_pages_page_1af740f85cc5e156ea2af3b1df74b23b68:
 
 -  **Page** **(**  **)**
 

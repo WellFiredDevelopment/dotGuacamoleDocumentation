@@ -1,9 +1,9 @@
-.. _classwellfired_guacamole_views_masterdetailpage_masterpageitem:
+.. _classwellfired_guacamole_pages_masterdetailpage_masterpageitem:
 
 MasterPageItem
 ===============
 
-**Namespace:** :ref:`WellFired.Guacamole.Views<namespacewellfired_guacamole_views>`
+**Namespace:** :ref:`WellFired.Guacamole.Pages<namespacewellfired_guacamole_pages>`
 
 **Implements:** :ref:`WellFired.Guacamole.Cells.IDefaultCellContext<interfacewellfired_guacamole_cells_idefaultcellcontext>`
 
@@ -20,42 +20,42 @@ Properties
 -----------
 
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`CellLabelText<classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a7aaf733c893c6ae0c955afb3d0dd4e4e>` **{** get; set; **}**   |
+|string       |:ref:`CellLabelText<classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1a5cf892efeba42e23146e39501898492a>` **{** get; set; **}**   |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`IsSelected<classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a3b0cba314042cc2e89b9123dbaa85dbe>` **{** get; set; **}**      |
+|bool         |:ref:`IsSelected<classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1ac130fa877f4431e050be7b7791b17894>` **{** get; set; **}**      |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-|Type         |:ref:`TargetType<classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a6bfd856c759a5fff2fbd85ce76b092bb>` **{** get; set; **}**      |
+|Type         |:ref:`TargetType<classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1a11e09cbcccd657c202238188d3161264>` **{** get; set; **}**      |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
 
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`MasterPageItem<classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a52ead3a04b090b750c5fea882a61ec58>` **(** string title, Type targetType, bool isSelected **)**   |
+|             |:ref:`MasterPageItem<classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1a7bb8ece5dbf15b560a3e5a7643009e65>` **(** string title, Type targetType, bool isSelected **)**   |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`MasterPageItem<classwellfired_guacamole_views_masterdetailpage_masterpageitem_1afed803d134a5c9508ff452412193d48f>` **(** string title, Type targetType **)**                    |
+|             |:ref:`MasterPageItem<classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1acdaf8e5740a78e5f222daf524a0c7b0d>` **(** string title, Type targetType **)**                    |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a7aaf733c893c6ae0c955afb3d0dd4e4e:
+.. _classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1a5cf892efeba42e23146e39501898492a:
 
 - string **CellLabelText** **{** get; set; **}**
 
-.. _classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a3b0cba314042cc2e89b9123dbaa85dbe:
+.. _classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1ac130fa877f4431e050be7b7791b17894:
 
 - bool **IsSelected** **{** get; set; **}**
 
-.. _classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a6bfd856c759a5fff2fbd85ce76b092bb:
+.. _classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1a11e09cbcccd657c202238188d3161264:
 
 - Type **TargetType** **{** get; set; **}**
 
-.. _classwellfired_guacamole_views_masterdetailpage_masterpageitem_1a52ead3a04b090b750c5fea882a61ec58:
+.. _classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1a7bb8ece5dbf15b560a3e5a7643009e65:
 
 -  **MasterPageItem** **(** string title, Type targetType, bool isSelected **)**
 
-.. _classwellfired_guacamole_views_masterdetailpage_masterpageitem_1afed803d134a5c9508ff452412193d48f:
+.. _classwellfired_guacamole_pages_masterdetailpage_masterpageitem_1acdaf8e5740a78e5f222daf524a0c7b0d:
 
 -  **MasterPageItem** **(** string title, Type targetType **)**
 
