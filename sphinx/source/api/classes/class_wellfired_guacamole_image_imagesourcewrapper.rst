@@ -17,7 +17,7 @@ Properties
 -----------
 
 +-------------+-------------------------------------------------------------------------------------------------------------------------------+
-|byte[]       |:ref:`Data<classwellfired_guacamole_image_imagesourcewrapper_1a79a36d33c623e5f32583dbcf35c2e100>` **{** get; set; **}**        |
+|byte []      |:ref:`Data<classwellfired_guacamole_image_imagesourcewrapper_1a79a36d33c623e5f32583dbcf35c2e100>` **{** get; set; **}**        |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------+
 |ImageType    |:ref:`ImageType<classwellfired_guacamole_image_imagesourcewrapper_1a0d1056ef8b5f35558a9fa723678757c1>` **{** get; set; **}**   |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------+
@@ -34,7 +34,7 @@ Breakdown
 
 .. _classwellfired_guacamole_image_imagesourcewrapper_1a79a36d33c623e5f32583dbcf35c2e100:
 
-- byte[] **Data** **{** get; set; **}**
+- byte [] **Data** **{** get; set; **}**
 
 .. _classwellfired_guacamole_image_imagesourcewrapper_1a0d1056ef8b5f35558a9fa723678757c1:
 

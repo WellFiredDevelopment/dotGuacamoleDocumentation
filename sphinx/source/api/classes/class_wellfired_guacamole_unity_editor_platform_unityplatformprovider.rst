@@ -16,13 +16,11 @@ An implementation of the :ref:`Platform<namespacewellfired_guacamole_unity_edito
 Public Properties
 ------------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`PlatformProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a3d0edc2af5ed83e672ee895620652eb0>`            |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`FullPlatformDataPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1ad41b5b4564fb127e3a19b5a78a780d18>`           |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`DataPathWithApplicationName<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a059b020f4c91166b16d4881c5ec20784>`    |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`PlatformProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a3d0edc2af5ed83e672ee895620652eb0>`    |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`PlatformDataPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a56c1d501a9cde9c4f4cd074541d76df1>`       |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 Properties
 -----------
@@ -51,13 +49,9 @@ Breakdown
 
 - string **PlatformProjectPath** 
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1ad41b5b4564fb127e3a19b5a78a780d18:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a56c1d501a9cde9c4f4cd074541d76df1:
 
-- string **FullPlatformDataPath** 
-
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a059b020f4c91166b16d4881c5ec20784:
-
-- string **DataPathWithApplicationName** 
+- string **PlatformDataPath** 
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a706a9ef9e78992a18ccfd03bb63a0505:
 

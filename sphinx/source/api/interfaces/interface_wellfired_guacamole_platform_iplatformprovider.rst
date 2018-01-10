@@ -13,13 +13,11 @@ Provides some platform specific implementations of certain functionalities.
 Properties
 -----------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`FullPlatformDataPath<interfacewellfired_guacamole_platform_iplatformprovider_1a5e0c74bd9976540eda0d038864f35755>` **{** get; set; **}**          |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`DataPathWithApplicationName<interfacewellfired_guacamole_platform_iplatformprovider_1a0e36af884f67686fc731546a7bbd0b41>` **{** get; set; **}**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`PlatformProjectPath<interfacewellfired_guacamole_platform_iplatformprovider_1a6beefa94ba93a7ac24e8147b06c313de>` **{** get; set; **}**           |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`PlatformDataPath<interfacewellfired_guacamole_platform_iplatformprovider_1ade9f593b64dccaa8dea44fc8ffb8f51a>` **{** get; set; **}**      |
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`PlatformProjectPath<interfacewellfired_guacamole_platform_iplatformprovider_1a6beefa94ba93a7ac24e8147b06c313de>` **{** get; set; **}**   |
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -35,21 +33,13 @@ Public Methods
 Breakdown
 ----------
 
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a5e0c74bd9976540eda0d038864f35755:
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1ade9f593b64dccaa8dea44fc8ffb8f51a:
 
-- string **FullPlatformDataPath** **{** get; set; **}**
+- string **PlatformDataPath** **{** get; set; **}**
 
     **Description**
 
         Path where data can be saved safely 
-
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a0e36af884f67686fc731546a7bbd0b41:
-
-- string **DataPathWithApplicationName** **{** get; set; **}**
-
-    **Description**
-
-        The data path plus the application name 
 
 .. _interfacewellfired_guacamole_platform_iplatformprovider_1a6beefa94ba93a7ac24e8147b06c313de:
 

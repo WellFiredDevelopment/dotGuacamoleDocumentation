@@ -13,26 +13,26 @@ Description
 Public Static Methods
 ----------------------
 
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-|IList              |:ref:`From<classwellfired_guacamole_types_itemsource_1a385029fc94d644cc3ec62d42943516d2>` **(** params string[] collection **)**   |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-|IList              |:ref:`From<classwellfired_guacamole_types_itemsource_1a531b1214a27ce81b34ee7c5d83d57ca4>` **(** params Uri[] collection **)**      |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-|IEnumerable< T >   |:ref:`From<classwellfired_guacamole_types_itemsource_1aa76a688e797a611e912051b5959f4348>` **(** params T[] collection **)**        |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------+
++-------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|IList              |:ref:`From<classwellfired_guacamole_types_itemsource_1ae0c594af39970691649f8f40afeaa3d9>` **(** params string [] collection **)**   |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|IList              |:ref:`From<classwellfired_guacamole_types_itemsource_1a256002863e4560f8e0f50586808c201f>` **(** params Uri [] collection **)**      |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|IEnumerable< T >   |:ref:`From<classwellfired_guacamole_types_itemsource_1aa01841bbef2f286ee80cdf41ce6fba8c>` **(** params T [] collection **)**        |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_types_itemsource_1a385029fc94d644cc3ec62d42943516d2:
+.. _classwellfired_guacamole_types_itemsource_1ae0c594af39970691649f8f40afeaa3d9:
 
-- IList **From** **(** params string[] collection **)**
+- IList **From** **(** params string [] collection **)**
 
-.. _classwellfired_guacamole_types_itemsource_1a531b1214a27ce81b34ee7c5d83d57ca4:
+.. _classwellfired_guacamole_types_itemsource_1a256002863e4560f8e0f50586808c201f:
 
-- IList **From** **(** params Uri[] collection **)**
+- IList **From** **(** params Uri [] collection **)**
 
-.. _classwellfired_guacamole_types_itemsource_1aa76a688e797a611e912051b5959f4348:
+.. _classwellfired_guacamole_types_itemsource_1aa01841bbef2f286ee80cdf41ce6fba8c:
 
-- IEnumerable< T > **From** **(** params T[] collection **)**
+- IEnumerable< T > **From** **(** params T [] collection **)**
 
