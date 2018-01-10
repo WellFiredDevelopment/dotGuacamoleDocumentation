@@ -5,6 +5,9 @@ SimpleMonitor
 
 **Namespace:** :ref:`WellFired.Guacamole.Data.Collection<namespacewellfired_guacamole_data_collection>`
 
+**Implements:** :ref:`WellFired.Guacamole.IDisposable<interfacewellfired_guacamole_idisposable>`
+
+
 Description
 ------------
 
