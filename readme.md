@@ -1,6 +1,6 @@
 # .Guacamole documentation
 
-This repository contains the source files of [.Guacamole](http://dotguacamole-documentation.readthedocs.io/en/stable/)'s documentation,  in reStructuredText markup language (reST).
+This repository contains the source files of [.Guacamole](http://dotguacamoledocumentation.readthedocs.io/en/stable/)'s documentation,  in reStructuredText markup language (reST).
 
 They are meant to be parsed with the [Sphinx](http://sphinx-doc.org/) documentation builder to build the HTML documentation on [.Guacamole](http://dotguacamole-documentation.readthedocs.io/en/stable/)'s documentation page.
 
