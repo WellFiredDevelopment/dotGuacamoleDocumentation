@@ -14,9 +14,9 @@ Properties
 -----------
 
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`FullPlatformDataPath<interfacewellfired_guacamole_platform_iplatformprovider_1a5e0c74bd9976540eda0d038864f35755>` **{** get; set; **}**          |
+|string       |:ref:`ApplicationDataRootedPath<interfacewellfired_guacamole_platform_iplatformprovider_1a15525251b74f220a75c7647f22f46020>` **{** get; set; **}**     |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`DataPathWithApplicationName<interfacewellfired_guacamole_platform_iplatformprovider_1a0e36af884f67686fc731546a7bbd0b41>` **{** get; set; **}**   |
+|string       |:ref:`ApplicationDataRelativePath<interfacewellfired_guacamole_platform_iplatformprovider_1a6ea1f5412abefa78dd79ab2f294c2429>` **{** get; set; **}**   |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`PlatformProjectPath<interfacewellfired_guacamole_platform_iplatformprovider_1a6beefa94ba93a7ac24e8147b06c313de>` **{** get; set; **}**           |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -37,17 +37,17 @@ Public Methods
 Breakdown
 ----------
 
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a5e0c74bd9976540eda0d038864f35755:
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1a15525251b74f220a75c7647f22f46020:
 
-- string **FullPlatformDataPath** **{** get; set; **}**
+- string **ApplicationDataRootedPath** **{** get; set; **}**
 
     **Description**
 
         Path where data can be saved safely 
 
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a0e36af884f67686fc731546a7bbd0b41:
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1a6ea1f5412abefa78dd79ab2f294c2429:
 
-- string **DataPathWithApplicationName** **{** get; set; **}**
+- string **ApplicationDataRelativePath** **{** get; set; **}**
 
     **Description**
 

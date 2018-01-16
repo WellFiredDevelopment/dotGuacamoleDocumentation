@@ -19,9 +19,9 @@ Public Properties
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`PlatformProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a3d0edc2af5ed83e672ee895620652eb0>`            |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`FullPlatformDataPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1ad41b5b4564fb127e3a19b5a78a780d18>`           |
+|string       |:ref:`ApplicationDataRootedPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a43b7953ff650b4bd6c723f15e8de3c4d>`      |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`DataPathWithApplicationName<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a059b020f4c91166b16d4881c5ec20784>`    |
+|string       |:ref:`ApplicationDataRelativePath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a9c268f29c60979c151cc7e2835bf31ec>`    |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
@@ -46,13 +46,13 @@ Breakdown
 
 - string **PlatformProjectPath** 
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1ad41b5b4564fb127e3a19b5a78a780d18:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a43b7953ff650b4bd6c723f15e8de3c4d:
 
-- string **FullPlatformDataPath** 
+- string **ApplicationDataRootedPath** 
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a059b020f4c91166b16d4881c5ec20784:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a9c268f29c60979c151cc7e2835bf31ec:
 
-- string **DataPathWithApplicationName** 
+- string **ApplicationDataRelativePath** 
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a0d8fa8579d2126b1dc83691a09dcdf7b:
 
