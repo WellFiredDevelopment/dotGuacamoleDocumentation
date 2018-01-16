@@ -25,9 +25,9 @@ Public Methods
 ---------------
 
 +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetPersonalDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1a2579aae895daf7ed2a19afea03e72818>` **(** string applicationName **)**                      |
+|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetPersonalDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1a93c90dc6a0bdee9f1298dfa0cbacb1ca>` **(**  **)**                                            |
 +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1ab25e3efb31b14fcabb019e73763cf0cf>` **(** string applicationName **)**                    |
+|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1a0e11c4ff69e0173676c2d096636167b3>` **(**  **)**                                          |
 +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                  |:ref:`OpenFolderPicker<interfacewellfired_guacamole_platform_iplatformprovider_1a07eb9210c1f9a9fbc300c07be8da0b7e>` **(** string title, string folder, string defaultName **)**   |
 +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -61,21 +61,21 @@ Breakdown
 
         Path where the project assets are saved. 
 
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a2579aae895daf7ed2a19afea03e72818:
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1a93c90dc6a0bdee9f1298dfa0cbacb1ca:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetPersonalDataStorage** **(** string applicationName **)**
-
-    **Description**
-
-        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. 
-
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1ab25e3efb31b14fcabb019e73763cf0cf:
-
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetTeamSharedDataStorage** **(** string applicationName **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
 
     **Description**
 
-        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. 
+        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. This storage is personal because only used by a specific user/machine 
+
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1a0e11c4ff69e0173676c2d096636167b3:
+
+- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
+
+    **Description**
+
+        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. This storage is team shared because can be shared with the whole team through a vcs for example. 
 
 .. _interfacewellfired_guacamole_platform_iplatformprovider_1a07eb9210c1f9a9fbc300c07be8da0b7e:
 

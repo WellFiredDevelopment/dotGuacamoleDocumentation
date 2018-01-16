@@ -23,6 +23,8 @@ Public Methods
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`Write<classwellfired_guacamole_unity_editor_platform_unitypersonaldatastorageservice_1a40ab3eb36e485d73740123c6196b9d64>` **(** string data, string key **)**                            |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Delete<classwellfired_guacamole_unity_editor_platform_unitypersonaldatastorageservice_1a6879e66af7e38a3c1904eef69f8b8869>` **(** string key **)**                                        |
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -57,6 +59,20 @@ Breakdown
 
         +-------------+
         |data         |
+        +-------------+
+        |key          |
+        +-------------+
+        
+.. _classwellfired_guacamole_unity_editor_platform_unitypersonaldatastorageservice_1a6879e66af7e38a3c1904eef69f8b8869:
+
+- void **Delete** **(** string key **)**
+
+    **Description**
+
+        Delete the data associated to a given key 
+
+    **Parameters**
+
         +-------------+
         |key          |
         +-------------+

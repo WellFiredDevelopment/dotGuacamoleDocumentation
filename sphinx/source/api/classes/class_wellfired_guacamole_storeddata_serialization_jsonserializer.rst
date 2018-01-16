@@ -16,14 +16,26 @@ Description
 Public Methods
 ---------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`Serialize<classwellfired_guacamole_storeddata_serialization_jsonserializer_1ad39e418c7c79f42da55fad5d3f00bc54>` **(** object data **)**                    |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|T            |:ref:`Unserialize< T ><classwellfired_guacamole_storeddata_serialization_jsonserializer_1a0fbb5655d9242ffafa5b6073ea32a3f5>` **(** string serializedData **)**   |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`JSONSerializer<classwellfired_guacamole_storeddata_serialization_jsonserializer_1aec08a3eefe70660a81c2e2d6b135a407>` **(**  **)**                                     |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`JSONSerializer<classwellfired_guacamole_storeddata_serialization_jsonserializer_1a41c55a3ccfd5baedad443ea53c94fc8b>` **(** IContractResolver contractResolver **)**   |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`Serialize<classwellfired_guacamole_storeddata_serialization_jsonserializer_1ad39e418c7c79f42da55fad5d3f00bc54>` **(** object data **)**                               |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|T            |:ref:`Unserialize< T ><classwellfired_guacamole_storeddata_serialization_jsonserializer_1a0fbb5655d9242ffafa5b6073ea32a3f5>` **(** string serializedData **)**              |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
+
+.. _classwellfired_guacamole_storeddata_serialization_jsonserializer_1aec08a3eefe70660a81c2e2d6b135a407:
+
+-  **JSONSerializer** **(**  **)**
+
+.. _classwellfired_guacamole_storeddata_serialization_jsonserializer_1a41c55a3ccfd5baedad443ea53c94fc8b:
+
+-  **JSONSerializer** **(** IContractResolver contractResolver **)**
 
 .. _classwellfired_guacamole_storeddata_serialization_jsonserializer_1ad39e418c7c79f42da55fad5d3f00bc54:
 

@@ -24,22 +24,15 @@ Public Properties
 |string       |:ref:`DataPathWithApplicationName<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a059b020f4c91166b16d4881c5ec20784>`    |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
-Properties
------------
-
-+------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IMainThreadRunner<interfacewellfired_guacamole_platform_imainthreadrunner>`   |:ref:`MainThreadRunner<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a706a9ef9e78992a18ccfd03bb63a0505>` **{** get; set; **}**   |
-+------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-
 Public Methods
 ---------------
 
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                                                                                        |:ref:`UnityPlatformProvider<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a0d8fa8579d2126b1dc83691a09dcdf7b>` **(** string applicationName **)**                       |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetPersonalDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a12cd050347e624da950a21e85474b01a>` **(** string applicationName **)**                      |
+|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetPersonalDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c>` **(**  **)**                                            |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a3480224d175b5e8020c3b2cef0bd58c7>` **(** string applicationName **)**                    |
+|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8>` **(**  **)**                                          |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                  |:ref:`OpenFolderPicker<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acb70b15fbc323a002f792bbe91bf5ab3>` **(** string title, string folder, string defaultName **)**   |
 +----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -61,29 +54,25 @@ Breakdown
 
 - string **DataPathWithApplicationName** 
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a706a9ef9e78992a18ccfd03bb63a0505:
-
-- :ref:`IMainThreadRunner<interfacewellfired_guacamole_platform_imainthreadrunner>` **MainThreadRunner** **{** get; set; **}**
-
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a0d8fa8579d2126b1dc83691a09dcdf7b:
 
 -  **UnityPlatformProvider** **(** string applicationName **)**
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a12cd050347e624da950a21e85474b01a:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetPersonalDataStorage** **(** string applicationName **)**
-
-    **Description**
-
-        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. 
-
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a3480224d175b5e8020c3b2cef0bd58c7:
-
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetTeamSharedDataStorage** **(** string applicationName **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
 
     **Description**
 
-        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. 
+        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. This storage is personal because only used by a specific user/machine 
+
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8:
+
+- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
+
+    **Description**
+
+        With this, you can get some persistent data storage, you should be able to store strings of data in here. Think of it as a Key Value Store. This storage is team shared because can be shared with the whole team through a vcs for example. 
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acb70b15fbc323a002f792bbe91bf5ab3:
 

@@ -25,13 +25,13 @@ Public Properties
 Public Methods
 ---------------
 
-+-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IApplication<interfacewellfired_guacamole_iapplication>`   |:ref:`Launch<classwellfired_guacamole_unity_editor_application_1aad9cc07a61cc2c60ea9ad2be91c92201>` **(** :ref:`ApplicationInitializationContext<classwellfired_guacamole_unity_editor_applicationinitializationcontext>` initializationContext, Type persistantType = null **)**   |
-+-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                                                             |:ref:`Teardown<classwellfired_guacamole_unity_editor_application_1a259c03144ecae3d4d8542ae2dc2953e0>` **(**  **)**                                                                                                                                                                  |
-+-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                                                             |:ref:`Update<classwellfired_guacamole_unity_editor_application_1a65b25be277b774f357b37fbf29baff56>` **(**  **)**                                                                                                                                                                    |
-+-----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IApplication<interfacewellfired_guacamole_iapplication>`   |:ref:`Launch<classwellfired_guacamole_unity_editor_application_1addcbdda684b3034d452f040548f1b4ff>` **(** :ref:`InitializationContext<classwellfired_guacamole_unity_editor_initializationcontext>` initializationContext, Type persistantType = null **)**   |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                                                             |:ref:`Teardown<classwellfired_guacamole_unity_editor_application_1a259c03144ecae3d4d8542ae2dc2953e0>` **(**  **)**                                                                                                                                            |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                                                             |:ref:`Update<classwellfired_guacamole_unity_editor_application_1a65b25be277b774f357b37fbf29baff56>` **(**  **)**                                                                                                                                              |
++-----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -44,9 +44,9 @@ Breakdown
 
 - bool **IsRunning** 
 
-.. _classwellfired_guacamole_unity_editor_application_1aad9cc07a61cc2c60ea9ad2be91c92201:
+.. _classwellfired_guacamole_unity_editor_application_1addcbdda684b3034d452f040548f1b4ff:
 
-- :ref:`IApplication<interfacewellfired_guacamole_iapplication>` **Launch** **(** :ref:`ApplicationInitializationContext<classwellfired_guacamole_unity_editor_applicationinitializationcontext>` initializationContext, Type persistantType = null **)**
+- :ref:`IApplication<interfacewellfired_guacamole_iapplication>` **Launch** **(** :ref:`InitializationContext<classwellfired_guacamole_unity_editor_initializationcontext>` initializationContext, Type persistantType = null **)**
 
 .. _classwellfired_guacamole_unity_editor_application_1a259c03144ecae3d4d8542ae2dc2953e0:
 

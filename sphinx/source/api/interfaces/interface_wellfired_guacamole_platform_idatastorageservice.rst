@@ -18,6 +18,8 @@ Public Methods
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`Write<interfacewellfired_guacamole_platform_idatastorageservice_1a20f1168d65e6f32add3f9a1a980d0a5c>` **(** string data, string key **)**   |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Delete<interfacewellfired_guacamole_platform_idatastorageservice_1a8a565dd50c7fbfe547c847d6440c1505>` **(** string key **)**               |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -48,6 +50,20 @@ Breakdown
 
         +-------------+
         |data         |
+        +-------------+
+        |key          |
+        +-------------+
+        
+.. _interfacewellfired_guacamole_platform_idatastorageservice_1a8a565dd50c7fbfe547c847d6440c1505:
+
+- void **Delete** **(** string key **)**
+
+    **Description**
+
+        Delete the data associated to a given key 
+
+    **Parameters**
+
         +-------------+
         |key          |
         +-------------+
