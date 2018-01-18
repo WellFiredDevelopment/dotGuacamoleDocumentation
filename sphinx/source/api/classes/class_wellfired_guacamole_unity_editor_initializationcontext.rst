@@ -40,6 +40,8 @@ Public Properties
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+
 |string                                                 |:ref:`ApplicationName<classwellfired_guacamole_unity_editor_initializationcontext_1a3841f89885d3a315e569d469c8e6a268>`    |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+
+|string                                                 |:ref:`CompanyName<classwellfired_guacamole_unity_editor_initializationcontext_1ac22e6bfd87db5a072148a6c196f8b282>`        |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+
 |bool                                                   |:ref:`AllowMultiple<classwellfired_guacamole_unity_editor_initializationcontext_1af8111c88b034ace6b7d7d1d66ea9388f>`      |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+
 
@@ -90,6 +92,10 @@ Breakdown
 .. _classwellfired_guacamole_unity_editor_initializationcontext_1a3841f89885d3a315e569d469c8e6a268:
 
 - string **ApplicationName** 
+
+.. _classwellfired_guacamole_unity_editor_initializationcontext_1ac22e6bfd87db5a072148a6c196f8b282:
+
+- string **CompanyName** 
 
 .. _classwellfired_guacamole_unity_editor_initializationcontext_1af8111c88b034ace6b7d7d1d66ea9388f:
 

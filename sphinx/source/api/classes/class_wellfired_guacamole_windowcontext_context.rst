@@ -26,6 +26,8 @@ Public Properties
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
 |string                                                 |:ref:`ApplicationName<classwellfired_guacamole_windowcontext_context_1a6b670579a8da90c277a488203374fefe>`            |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
+|string                                                 |:ref:`CompanyName<classwellfired_guacamole_windowcontext_context_1a8e73b49172e4e22c495b5ea09770e82b>`                |
++-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
 |:ref:`UIRect<structwellfired_guacamole_data_uirect>`   |:ref:`UIRect<classwellfired_guacamole_windowcontext_context_1aa6ea7aea506d56b52abb9e284c6240b7>`                     |
 +-------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
 |bool                                                   |:ref:`AllowMultiple<classwellfired_guacamole_windowcontext_context_1aad921ba90e807834d023868dcb63ab4b>`              |
@@ -66,6 +68,10 @@ Breakdown
 .. _classwellfired_guacamole_windowcontext_context_1a6b670579a8da90c277a488203374fefe:
 
 - string **ApplicationName** 
+
+.. _classwellfired_guacamole_windowcontext_context_1a8e73b49172e4e22c495b5ea09770e82b:
+
+- string **CompanyName** 
 
 .. _classwellfired_guacamole_windowcontext_context_1aa6ea7aea506d56b52abb9e284c6240b7:
 

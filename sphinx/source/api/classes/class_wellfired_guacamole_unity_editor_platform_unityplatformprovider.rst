@@ -16,51 +16,47 @@ An implementation of the :ref:`Platform<namespacewellfired_guacamole_unity_edito
 Public Properties
 ------------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`PlatformProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a3d0edc2af5ed83e672ee895620652eb0>`            |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`ApplicationDataRootedPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a43b7953ff650b4bd6c723f15e8de3c4d>`      |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`ApplicationDataRelativePath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a9c268f29c60979c151cc7e2835bf31ec>`    |
-+-------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`AssetsPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1abbafac12cafe67f2149a7af4fa5ad5b9>`     |
++-------------+-------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`ProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825>`    |
++-------------+-------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
 
-+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                                                        |:ref:`UnityPlatformProvider<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a0d8fa8579d2126b1dc83691a09dcdf7b>` **(** string applicationName **)**                       |
-+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetPersonalDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c>` **(**  **)**                                            |
-+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8>` **(**  **)**                                          |
-+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                  |:ref:`OpenFolderPicker<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acb70b15fbc323a002f792bbe91bf5ab3>` **(** string title, string folder, string defaultName **)**   |
-+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                  |:ref:`PathTo<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2f09bf719ed4669e1b6334d4104221cf>` **(** string file **)**                                                 |
-+----------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                    |:ref:`UnityPlatformProvider<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a268f1d8dcecb5f28c5bdc8338d4a8b36>` **(** string applicationName, string companyName **)**   |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetPersonalDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c>` **(**  **)**                                            |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8>` **(**  **)**                                          |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                              |:ref:`OpenFolderPicker<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acb70b15fbc323a002f792bbe91bf5ab3>` **(** string title, string folder, string defaultName **)**   |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                              |:ref:`PathToSharedData<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a64cb0817a23e3ffc7418bae65846d041>` **(** string file **)**                                       |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                              |:ref:`PathToPersonalData<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1afde4d4e8ae61dd75252d077f38a715e5>` **(** string file **)**                                     |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a3d0edc2af5ed83e672ee895620652eb0:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1abbafac12cafe67f2149a7af4fa5ad5b9:
 
-- string **PlatformProjectPath** 
+- string **AssetsPath** 
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a43b7953ff650b4bd6c723f15e8de3c4d:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825:
 
-- string **ApplicationDataRootedPath** 
+- string **ProjectPath** 
 
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a9c268f29c60979c151cc7e2835bf31ec:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a268f1d8dcecb5f28c5bdc8338d4a8b36:
 
-- string **ApplicationDataRelativePath** 
-
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a0d8fa8579d2126b1dc83691a09dcdf7b:
-
--  **UnityPlatformProvider** **(** string applicationName **)**
+-  **UnityPlatformProvider** **(** string applicationName, string companyName **)**
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
 
     **Description**
 
@@ -68,7 +64,7 @@ Breakdown
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
 
     **Description**
 
@@ -92,13 +88,27 @@ Breakdown
         |defaultName   |The default folder to return if no folder is selected    |
         +--------------+---------------------------------------------------------+
         
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2f09bf719ed4669e1b6334d4104221cf:
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a64cb0817a23e3ffc7418bae65846d041:
 
-- string **PathTo** **(** string file **)**
+- string **PathToSharedData** **(** string file **)**
 
     **Description**
 
-        Call this method to be returned the full path to a relative file 
+        Call this method to be returned the full path to a relative team-shared file 
+
+    **Parameters**
+
+        +-------------+
+        |file         |
+        +-------------+
+        
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1afde4d4e8ae61dd75252d077f38a715e5:
+
+- string **PathToPersonalData** **(** string file **)**
+
+    **Description**
+
+        Call this method to be returned the full path to a relative personal file 
 
     **Parameters**
 

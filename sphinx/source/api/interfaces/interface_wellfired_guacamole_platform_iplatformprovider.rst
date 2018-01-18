@@ -13,57 +13,49 @@ Provides some platform specific implementations of certain functionalities.
 Properties
 -----------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`ApplicationDataRootedPath<interfacewellfired_guacamole_platform_iplatformprovider_1a15525251b74f220a75c7647f22f46020>` **{** get; set; **}**     |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`ApplicationDataRelativePath<interfacewellfired_guacamole_platform_iplatformprovider_1a6ea1f5412abefa78dd79ab2f294c2429>` **{** get; set; **}**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`PlatformProjectPath<interfacewellfired_guacamole_platform_iplatformprovider_1a6beefa94ba93a7ac24e8147b06c313de>` **{** get; set; **}**           |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`AssetsPath<interfacewellfired_guacamole_platform_iplatformprovider_1a6dd07a5ddd42c7a3d4cbc51dea0b92aa>` **{** get; set; **}**    |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`ProjectPath<interfacewellfired_guacamole_platform_iplatformprovider_1a8b36f8ea3dc4842d9e753ae75865816f>` **{** get; set; **}**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
 
-+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetPersonalDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1a93c90dc6a0bdee9f1298dfa0cbacb1ca>` **(**  **)**                                            |
-+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1a0e11c4ff69e0173676c2d096636167b3>` **(**  **)**                                          |
-+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                  |:ref:`OpenFolderPicker<interfacewellfired_guacamole_platform_iplatformprovider_1a07eb9210c1f9a9fbc300c07be8da0b7e>` **(** string title, string folder, string defaultName **)**   |
-+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                  |:ref:`PathTo<interfacewellfired_guacamole_platform_iplatformprovider_1a9728fe8fe9fd3b7b1f102be76f38c4e1>` **(** string file **)**                                                 |
-+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetPersonalDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1a93c90dc6a0bdee9f1298dfa0cbacb1ca>` **(**  **)**                                            |
++----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<interfacewellfired_guacamole_platform_iplatformprovider_1a0e11c4ff69e0173676c2d096636167b3>` **(**  **)**                                          |
++----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                              |:ref:`OpenFolderPicker<interfacewellfired_guacamole_platform_iplatformprovider_1a07eb9210c1f9a9fbc300c07be8da0b7e>` **(** string title, string folder, string defaultName **)**   |
++----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                              |:ref:`PathToSharedData<interfacewellfired_guacamole_platform_iplatformprovider_1ae756cc27a68545a46180f81d394fa9d4>` **(** string file **)**                                       |
++----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                              |:ref:`PathToPersonalData<interfacewellfired_guacamole_platform_iplatformprovider_1afa0ba196320ecb524a69bdc9559d67bc>` **(** string file **)**                                     |
++----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a15525251b74f220a75c7647f22f46020:
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1a6dd07a5ddd42c7a3d4cbc51dea0b92aa:
 
-- string **ApplicationDataRootedPath** **{** get; set; **}**
-
-    **Description**
-
-        Path where data can be saved safely 
-
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a6ea1f5412abefa78dd79ab2f294c2429:
-
-- string **ApplicationDataRelativePath** **{** get; set; **}**
-
-    **Description**
-
-        The data path plus the application name 
-
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a6beefa94ba93a7ac24e8147b06c313de:
-
-- string **PlatformProjectPath** **{** get; set; **}**
+- string **AssetsPath** **{** get; set; **}**
 
     **Description**
 
         Path where the project assets are saved. 
 
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1a8b36f8ea3dc4842d9e753ae75865816f:
+
+- string **ProjectPath** **{** get; set; **}**
+
+    **Description**
+
+        Path where the project is saved. 
+
 .. _interfacewellfired_guacamole_platform_iplatformprovider_1a93c90dc6a0bdee9f1298dfa0cbacb1ca:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
 
     **Description**
 
@@ -71,7 +63,7 @@ Breakdown
 
 .. _interfacewellfired_guacamole_platform_iplatformprovider_1a0e11c4ff69e0173676c2d096636167b3:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_platform_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
 
     **Description**
 
@@ -95,13 +87,27 @@ Breakdown
         |defaultName   |The default folder to return if no folder is selected    |
         +--------------+---------------------------------------------------------+
         
-.. _interfacewellfired_guacamole_platform_iplatformprovider_1a9728fe8fe9fd3b7b1f102be76f38c4e1:
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1ae756cc27a68545a46180f81d394fa9d4:
 
-- string **PathTo** **(** string file **)**
+- string **PathToSharedData** **(** string file **)**
 
     **Description**
 
-        Call this method to be returned the full path to a relative file 
+        Call this method to be returned the full path to a relative team-shared file 
+
+    **Parameters**
+
+        +-------------+
+        |file         |
+        +-------------+
+        
+.. _interfacewellfired_guacamole_platform_iplatformprovider_1afa0ba196320ecb524a69bdc9559d67bc:
+
+- string **PathToPersonalData** **(** string file **)**
+
+    **Description**
+
+        Call this method to be returned the full path to a relative personal file 
 
     **Parameters**
 
