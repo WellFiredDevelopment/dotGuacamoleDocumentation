@@ -10,6 +10,13 @@ Description
 
 This interface defines a simple key value store. 
 
+Properties
+-----------
+
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`Location<interfacewellfired_guacamole_datastorage_storages_idatastorageservice_1a7598050f061e7c512804304945d0d478>` **{** get; set; **}**   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
 Public Methods
 ---------------
 
@@ -25,6 +32,14 @@ Public Methods
 
 Breakdown
 ----------
+
+.. _interfacewellfired_guacamole_datastorage_storages_idatastorageservice_1a7598050f061e7c512804304945d0d478:
+
+- string **Location** **{** get; set; **}**
+
+    **Description**
+
+        Indicate the location of the storage. 
 
 .. _interfacewellfired_guacamole_datastorage_storages_idatastorageservice_1ace101dc3c728f2d88738bc76b0c6574c:
 

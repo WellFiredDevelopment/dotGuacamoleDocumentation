@@ -13,16 +13,16 @@ Description
 Public Methods
 ---------------
 
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Inject<interfacewellfired_guacamole_databinding_ibasicviewmodel_1a60b251df8ae1a0735ae1aac2c1fa6408>` **(** :ref:`ILogger<interfacewellfired_guacamole_diagnostics_ilogger>` logger, INotifyPropertyChanged persistentData, :ref:`IPlatformProvider<interfacewellfired_guacamole_platform_iplatformprovider>` platformProvider **)**   |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Inject<interfacewellfired_guacamole_databinding_ibasicviewmodel_1a60b251df8ae1a0735ae1aac2c1fa6408>` **(** :ref:`ILogger<interfacewellfired_guacamole_diagnostics_ilogger>` logger, INotifyPropertyChanged persistentData, :ref:`IPlatformProvider<interfacewellfired_guacamole_platforms_iplatformprovider>` platformProvider **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
 .. _interfacewellfired_guacamole_databinding_ibasicviewmodel_1a60b251df8ae1a0735ae1aac2c1fa6408:
 
-- void **Inject** **(** :ref:`ILogger<interfacewellfired_guacamole_diagnostics_ilogger>` logger, INotifyPropertyChanged persistentData, :ref:`IPlatformProvider<interfacewellfired_guacamole_platform_iplatformprovider>` platformProvider **)**
+- void **Inject** **(** :ref:`ILogger<interfacewellfired_guacamole_diagnostics_ilogger>` logger, INotifyPropertyChanged persistentData, :ref:`IPlatformProvider<interfacewellfired_guacamole_platforms_iplatformprovider>` platformProvider **)**
 
     **Description**
 

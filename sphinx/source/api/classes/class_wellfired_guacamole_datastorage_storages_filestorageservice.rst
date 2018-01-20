@@ -13,6 +13,13 @@ Description
 
 Store textual data in a key/value fashion, key being the file and value the data saved inside. This file is saved a the path indicated in the constructor. 
 
+Properties
+-----------
+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`Location<classwellfired_guacamole_datastorage_storages_filestorageservice_1a2762c2a91ff082dde6e558b01f6da2b9>` **{** get; set; **}**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
 Public Methods
 ---------------
 
@@ -31,16 +38,14 @@ Public Methods
 Breakdown
 ----------
 
+.. _classwellfired_guacamole_datastorage_storages_filestorageservice_1a2762c2a91ff082dde6e558b01f6da2b9:
+
+- string **Location** **{** get; set; **}**
+
 .. _classwellfired_guacamole_datastorage_storages_filestorageservice_1a4e756e8d8d046b5ea77a3f5ad18c4a16:
 
 -  **FileStorageService** **(** string savingFolder **)**
 
-    **Parameters**
-
-        +---------------+-------------------------------------+
-        |savingFolder   |Path where are saved the key files   |
-        +---------------+-------------------------------------+
-        
 .. _classwellfired_guacamole_datastorage_storages_filestorageservice_1a62fb7ed686a8933f710c0ac9933084c6:
 
 - string **Read** **(** string key **)**
@@ -55,7 +60,7 @@ Breakdown
 
     **Description**
 
-        Write the file key inside _savingFolder. If some directories are missing in the path, they are created. 
+        Write the file key inside :ref:`Location<classwellfired_guacamole_datastorage_storages_filestorageservice_1a2762c2a91ff082dde6e558b01f6da2b9>`. If some directories are missing in the path, they are created. 
 
     **Parameters**
 

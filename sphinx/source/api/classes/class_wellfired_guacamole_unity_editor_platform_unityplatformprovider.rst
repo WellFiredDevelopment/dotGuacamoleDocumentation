@@ -5,7 +5,7 @@ UnityPlatformProvider
 
 **Namespace:** :ref:`WellFired.Guacamole.Unity.Editor<namespacewellfired_guacamole_unity_editor>`
 
-**Implements:** :ref:`WellFired.Guacamole.Platform.IPlatformProvider<interfacewellfired_guacamole_platform_iplatformprovider>`
+**Implements:** :ref:`WellFired.Guacamole.Platforms.IPlatformProvider<interfacewellfired_guacamole_platforms_iplatformprovider>`
 
 
 Description
@@ -16,8 +16,6 @@ An implementation of the :ref:`Platform<namespacewellfired_guacamole_unity_edito
 Public Properties
 ------------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`AssetsPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1abbafac12cafe67f2149a7af4fa5ad5b9>`     |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`ProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825>`    |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------+
@@ -41,10 +39,6 @@ Public Methods
 
 Breakdown
 ----------
-
-.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1abbafac12cafe67f2149a7af4fa5ad5b9:
-
-- string **AssetsPath** 
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825:
 
@@ -94,7 +88,7 @@ Breakdown
 
     **Description**
 
-        Call this method to be returned the full path to a relative team-shared file 
+        Call this method to be returned the full path to a relative team-shared file. If your team-shared data is located at /path/to/your/shared/data, then calling the function with "Images/Doges.jpeg" will return /path/to/your/shared/data/Images/Doge.jpg. 
 
     **Parameters**
 
@@ -108,7 +102,7 @@ Breakdown
 
     **Description**
 
-        Call this method to be returned the full path to a relative personal file 
+        Call this method to be returned the full path to a relative personal file. If your personal data is located at /path/to/your/personal/data, then calling the function with "Images/Doges.jpeg" will return /path/to/your/personal/data/Images/Doge.jpg. 
 
     **Parameters**
 

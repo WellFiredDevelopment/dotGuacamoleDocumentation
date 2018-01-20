@@ -16,14 +16,14 @@ Description
 Public Methods
 ---------------
 
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`ComputerDataStorage<classwellfired_guacamole_datastorage_storages_computerdatastorage_1aacb35d1216dcc2c5cafc87951f11ac76>` **(** string applicationName, string companyName **)**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`ComputerDataStorage<classwellfired_guacamole_datastorage_storages_computerdatastorage_1a363809a17d8e08ad78beb4d0e161d366>` **(** string applicationName, string companyName, Platform platform **)**   |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_datastorage_storages_computerdatastorage_1aacb35d1216dcc2c5cafc87951f11ac76:
+.. _classwellfired_guacamole_datastorage_storages_computerdatastorage_1a363809a17d8e08ad78beb4d0e161d366:
 
--  **ComputerDataStorage** **(** string applicationName, string companyName **)**
+-  **ComputerDataStorage** **(** string applicationName, string companyName, Platform platform **)**
 
