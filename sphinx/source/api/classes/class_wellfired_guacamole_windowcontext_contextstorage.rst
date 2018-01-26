@@ -10,13 +10,6 @@ Description
 
 :ref:`Context<classwellfired_guacamole_windowcontext_context>` storage store the information of each :ref:`Guacamole<namespacewellfired_guacamole>` Windows that are closed. This is essential in order to reinitialize the window that were not closed when :ref:`Unity<namespacewellfired_guacamole_unity>` restart or compile. It includes essentially the size of the window, the view type and the view model type. The ids of :ref:`Guacamole<namespacewellfired_guacamole>` views being unique for each view, the window view id is used as a key in our storage. We also keep track of all the different window contexts saved in the storage to delete each of them after the windows were reloaded. 
 
-Properties
------------
-
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`WasCleanedUp<classwellfired_guacamole_windowcontext_contextstorage_1ad9b8cd671eb1c46a1287faf06ab8eb4c>` **{** get; set; **}**   |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------+
-
 Public Methods
 ---------------
 
@@ -34,10 +27,6 @@ Public Methods
 
 Breakdown
 ----------
-
-.. _classwellfired_guacamole_windowcontext_contextstorage_1ad9b8cd671eb1c46a1287faf06ab8eb4c:
-
-- bool **WasCleanedUp** **{** get; set; **}**
 
 .. _classwellfired_guacamole_windowcontext_contextstorage_1a495d2853e81273ce6ebd5d26aea2fdc8:
 
