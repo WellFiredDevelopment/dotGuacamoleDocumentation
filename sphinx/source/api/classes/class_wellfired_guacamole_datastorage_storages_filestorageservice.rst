@@ -11,7 +11,7 @@ FileStorageService
 Description
 ------------
 
-Store textual data in a key/value fashion, key being the file and value the data saved inside. This file is saved a the path indicated in the constructor. 
+Store textual data in a key/value fashion, key being the file and value the data saved inside. This file is saved a the path indicated in the constructor. The class is thread safe, therefore different instances of :ref:`FileStorageSynchronizer<classwellfired_guacamole_datastorage_storages_filestoragesynchronizer>` can read and write at the same location on different threads. 
 
 Properties
 -----------
