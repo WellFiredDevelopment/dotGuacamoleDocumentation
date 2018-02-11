@@ -1,6 +1,6 @@
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer:
 
-TextEntryRenderer
+LabelViewRenderer
 ==================
 
 **Namespace:** :ref:`WellFired.Guacamole.Unity.Editor.NativeControls<namespacewellfired_guacamole_unity_editor_nativecontrols>`
@@ -17,41 +17,41 @@ Properties
 -----------
 
 +----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override :ref:`UISize<structwellfired_guacamole_data_uisize>`   |:ref:`NativeSize<classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1a2268f202e652ce3338a8e14f1a3147cb>` **{** get; set; **}**   |
+|override :ref:`UISize<structwellfired_guacamole_data_uisize>`   |:ref:`NativeSize<classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a4807d3317fcc33f041db384dd9564f12>` **{** get; set; **}**   |
 +----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 protected-func
 ---------------
 
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`SetupWithNewStyle<classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1a75eff4d528c7c569176c6f3e9444dbc7>` **(**  **)**   |
+|override void   |:ref:`SetupWithNewStyle<classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a018147b76771c96f51670d2cd51adc7c>` **(**  **)**   |
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
 
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1af3cfb5ee71a4271067321fab0bbc7ed5>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
+|override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a76bc96298dd2fd6aa175ccbed4cc3bdc>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1a82569c6fbacc144088103ecea2c5a5f1>` **(** object sender, PropertyChangedEventArgs e **)**              |
+|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a0c6c4b0c5f960583b692248d76bcb971>` **(** object sender, PropertyChangedEventArgs e **)**              |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1a2268f202e652ce3338a8e14f1a3147cb:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a4807d3317fcc33f041db384dd9564f12:
 
 - override :ref:`UISize<structwellfired_guacamole_data_uisize>` **NativeSize** **{** get; set; **}**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1a75eff4d528c7c569176c6f3e9444dbc7:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a018147b76771c96f51670d2cd51adc7c:
 
 - override void **SetupWithNewStyle** **(**  **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1af3cfb5ee71a4271067321fab0bbc7ed5:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a76bc96298dd2fd6aa175ccbed4cc3bdc:
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_textentryrenderer_1a82569c6fbacc144088103ecea2c5a5f1:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a0c6c4b0c5f960583b692248d76bcb971:
 
 - override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

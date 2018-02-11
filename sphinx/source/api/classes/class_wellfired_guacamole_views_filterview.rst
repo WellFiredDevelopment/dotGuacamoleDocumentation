@@ -34,9 +34,11 @@ Properties
 Public Methods
 ---------------
 
-+-------------+-----------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Search<classwellfired_guacamole_views_filterview_1ab66728f96d817c718cc002ca70a071dd>` **(**  **)**   |
-+-------------+-----------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------+
+|             |:ref:`FilterView<classwellfired_guacamole_views_filterview_1af0765a709eb1dae21b65ed6cc74d7dca>` **(**  **)**   |
++-------------+---------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`Search<classwellfired_guacamole_views_filterview_1ab66728f96d817c718cc002ca70a071dd>` **(**  **)**       |
++-------------+---------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -56,6 +58,10 @@ Breakdown
 .. _classwellfired_guacamole_views_filterview_1aae6064934678fef2e9ef9641fc64edec:
 
 - List< string > **SimpleSearch** **{** get; set; **}**
+
+.. _classwellfired_guacamole_views_filterview_1af0765a709eb1dae21b65ed6cc74d7dca:
+
+-  **FilterView** **(**  **)**
 
 .. _classwellfired_guacamole_views_filterview_1ab66728f96d817c718cc002ca70a071dd:
 
