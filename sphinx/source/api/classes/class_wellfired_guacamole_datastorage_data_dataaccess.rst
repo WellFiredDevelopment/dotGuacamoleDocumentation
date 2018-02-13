@@ -14,6 +14,13 @@ Description
 :ref:`DataAccess<classwellfired_guacamole_datastorage_data_dataaccess>` is a hub to access data provided by a IDataStorageService". It offers :
 <list type="bullet">  the possibility to synchronize your IDataProxy with the stored data if ever it is changed (by modifying a file on a file storage for example)   A mechanism to ensure your data is always updated to its last version before to track it   The possibility to save content of your IDataProxy data in the storage only when you request it and only if data in your proxy was modified, avoiding to constantly write to the storage  Note that a :ref:`DataAccess<classwellfired_guacamole_datastorage_data_dataaccess>` is thread safe with himself. If ever you have several instance of it tracking data in the same emplacement, you may want to make use of the possibility of assigning a thread synchronizer id in the constructor method. 
 
+Properties
+-----------
+
++-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IKeyBasedReadWriteLock<interfacewellfired_guacamole_datastorage_synchronization_ikeybasedreadwritelock>`   |:ref:`SharedLock<classwellfired_guacamole_datastorage_data_dataaccess_1a1817c3e64525e057abc75e03ee0c8b9e>` **{** get; set; **}**   |
++-----------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
+
 Public Methods
 ---------------
 
@@ -29,6 +36,10 @@ Public Methods
 
 Breakdown
 ----------
+
+.. _classwellfired_guacamole_datastorage_data_dataaccess_1a1817c3e64525e057abc75e03ee0c8b9e:
+
+- :ref:`IKeyBasedReadWriteLock<interfacewellfired_guacamole_datastorage_synchronization_ikeybasedreadwritelock>` **SharedLock** **{** get; set; **}**
 
 .. _classwellfired_guacamole_datastorage_data_dataaccess_1ae1dc0f30f80b195dc6d7c96211937c28:
 
