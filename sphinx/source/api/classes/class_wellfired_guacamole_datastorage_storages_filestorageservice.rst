@@ -20,6 +20,13 @@ Properties
 |string       |:ref:`Location<classwellfired_guacamole_datastorage_storages_filestorageservice_1a2762c2a91ff082dde6e558b01f6da2b9>` **{** get; set; **}**   |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
+Public Static Methods
+----------------------
+
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`InitializeSharedThreadLock<classwellfired_guacamole_datastorage_storages_filestorageservice_1ad99882558cf5e995b180e41a222cd46f>` **(** :ref:`IKeyBasedReadWriteLock<interfacewellfired_guacamole_datastorage_synchronization_ikeybasedreadwritelock>` readWriteLock, bool forceReinitialization = false **)**   |
++-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 Public Methods
 ---------------
 
@@ -41,6 +48,10 @@ Breakdown
 .. _classwellfired_guacamole_datastorage_storages_filestorageservice_1a2762c2a91ff082dde6e558b01f6da2b9:
 
 - string **Location** **{** get; set; **}**
+
+.. _classwellfired_guacamole_datastorage_storages_filestorageservice_1ad99882558cf5e995b180e41a222cd46f:
+
+- void **InitializeSharedThreadLock** **(** :ref:`IKeyBasedReadWriteLock<interfacewellfired_guacamole_datastorage_synchronization_ikeybasedreadwritelock>` readWriteLock, bool forceReinitialization = false **)**
 
 .. _classwellfired_guacamole_datastorage_storages_filestorageservice_1a4e756e8d8d046b5ea77a3f5ad18c4a16:
 
