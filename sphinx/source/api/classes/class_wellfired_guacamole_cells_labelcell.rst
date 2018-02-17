@@ -17,6 +17,8 @@ public-static-attrib
 ---------------------
 
 +------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`FontSizeProperty<classwellfired_guacamole_cells_labelcell_1a042a63c8c52d78395482a4df29ed6ec3>`               |
++------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 |readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`TextProperty<classwellfired_guacamole_cells_labelcell_1ac7906ef64292a6afb9aef3767e372c3f>`                   |
 +------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 |readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`TextColorProperty<classwellfired_guacamole_cells_labelcell_1a931a4db1db239038fabca5065ae3d514>`              |
@@ -29,6 +31,8 @@ public-static-attrib
 Properties
 -----------
 
++---------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+|int                                                      |:ref:`FontSize<classwellfired_guacamole_cells_labelcell_1a7eca2a593a609590ab3b99312d0f29db>` **{** get; set; **}**              |
 +---------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 |string                                                   |:ref:`Text<classwellfired_guacamole_cells_labelcell_1a1c32fa43edcd56aa46cffd32729a59e6>` **{** get; set; **}**                  |
 +---------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
@@ -49,6 +53,10 @@ Public Methods
 Breakdown
 ----------
 
+.. _classwellfired_guacamole_cells_labelcell_1a042a63c8c52d78395482a4df29ed6ec3:
+
+- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **FontSizeProperty** 
+
 .. _classwellfired_guacamole_cells_labelcell_1ac7906ef64292a6afb9aef3767e372c3f:
 
 - readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **TextProperty** 
@@ -64,6 +72,10 @@ Breakdown
 .. _classwellfired_guacamole_cells_labelcell_1a0a5d45c5545cb443e4949f56ee17d0ad:
 
 - readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **VerticalTextAlignProperty** 
+
+.. _classwellfired_guacamole_cells_labelcell_1a7eca2a593a609590ab3b99312d0f29db:
+
+- int **FontSize** **{** get; set; **}**
 
 .. _classwellfired_guacamole_cells_labelcell_1a1c32fa43edcd56aa46cffd32729a59e6:
 
