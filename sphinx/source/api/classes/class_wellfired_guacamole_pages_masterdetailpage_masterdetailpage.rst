@@ -16,9 +16,11 @@ The master detail page is a typical MasterDetail page. It allows you to specify 
 Public Methods
 ---------------
 
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`MasterDetailPage<classwellfired_guacamole_pages_masterdetailpage_masterdetailpage_1af4cf2b1beb6a5b810c291e4889bb2475>` **(** :ref:`ILayoutable<interfacewellfired_guacamole_layouts_ilayoutable>` master, :ref:`IView<interfacewellfired_guacamole_iview>` detail **)**   |
-+-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |:ref:`MasterDetailPage<classwellfired_guacamole_pages_masterdetailpage_masterdetailpage_1af4cf2b1beb6a5b810c291e4889bb2475>` **(** :ref:`ILayoutable<interfacewellfired_guacamole_layouts_ilayoutable>` master, :ref:`IView<interfacewellfired_guacamole_iview>` detail **)**   |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`InvalidateRectRequest<classwellfired_guacamole_pages_masterdetailpage_masterdetailpage_1a98536b21d8bf5f9bf8a31c94946a4351>` **(**  **)**                                                                                                                                  |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 protected-func
 ---------------
@@ -33,6 +35,10 @@ Breakdown
 .. _classwellfired_guacamole_pages_masterdetailpage_masterdetailpage_1af4cf2b1beb6a5b810c291e4889bb2475:
 
 -  **MasterDetailPage** **(** :ref:`ILayoutable<interfacewellfired_guacamole_layouts_ilayoutable>` master, :ref:`IView<interfacewellfired_guacamole_iview>` detail **)**
+
+.. _classwellfired_guacamole_pages_masterdetailpage_masterdetailpage_1a98536b21d8bf5f9bf8a31c94946a4351:
+
+- override void **InvalidateRectRequest** **(**  **)**
 
 .. _classwellfired_guacamole_pages_masterdetailpage_masterdetailpage_1a4e1273e54789e5f18c7bc38435245249:
 
