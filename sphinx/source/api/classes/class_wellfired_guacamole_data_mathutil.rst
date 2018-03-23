@@ -26,7 +26,7 @@ Breakdown
 
     **Description**
 
-        Returns tru if a is almost the same value as b, using a d of 0.0001f 
+        Returns true if a is almost the same value as b, using a d of 0.0001f 
 
     **Parameters**
 

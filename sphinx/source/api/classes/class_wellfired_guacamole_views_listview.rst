@@ -271,9 +271,17 @@ Breakdown
 
 - int **TotalContentSize** **{** get; set; **}**
 
+    **Description**
+
+        The total width for horizontal list view, or the total height for vertical list view, after suming up the size of each items. 
+
 .. _classwellfired_guacamole_views_listview_1a43fff258fb520496fcac9c97332f885d:
 
 - float **InitialOffset** **{** get; set; **}**
+
+    **Description**
+
+        The position where the first child should be rendered. A negative value indicate that the first child is rendered above the list view position (or on the left for a horizontal list view), meaning part of it is outside of the list view. This happens when scrolling, or when adding and removing children from the list of cells to render. 
 
 .. _classwellfired_guacamole_views_listview_1aa441431d2b58b56035a05161cfbd0440:
 
@@ -315,10 +323,34 @@ Breakdown
 
 - void **ItemLeftVds** **(** int vdsIndex, bool front **)**
 
+    **Description**
+
+        When an item becomes invisible, we cache the cell and remove it from the children. 
+
+    **Parameters**
+
+        +-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+        |vdsIndex     |                                                                                                                                           |
+        +-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+        |front        |indicate if the item added is on the top of already visible children, or if it is at the bottom (left or right for horizontal list view)   |
+        +-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+        
 .. _classwellfired_guacamole_views_listview_1ab9196503f4bd084a784a910c00b30648:
 
 - void **ItemEnteredVds** **(** int vdsIndex, bool front **)**
 
+    **Description**
+
+        When an item becomes visible, we get a cell from the cache and we inject the data in it. 
+
+    **Parameters**
+
+        +-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+        |vdsIndex     |                                                                                                                                           |
+        +-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+        |front        |indicate if the item added is on the top of already visible children, or if it is at the bottom (left or right for horizontal list view)   |
+        +-------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+        
 .. _classwellfired_guacamole_views_listview_1ae1c16ce24ed9c213d7c79fd39a83c343:
 
 - override void **ItemSourceChanged** **(**  **)**
