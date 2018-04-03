@@ -33,8 +33,6 @@ Public Methods
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                |:ref:`TabbedPage<classwellfired_guacamole_pages_tabbedpage_1ab32dcda1f6dab2877f3ce67f6fa2b2c3>` **(**  **)**                                                                                                         |
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void            |:ref:`Selected<classwellfired_guacamole_pages_tabbedpage_1ae29f33369f376a16a345eb20386f9522>` **(** object bindingContext **)**                                                                                      |
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override void   |:ref:`SetStyleDictionary<classwellfired_guacamole_pages_tabbedpage_1afa1b4d12e346ccd81845874349a49486>` **(** :ref:`IStyleDictionary<interfacewellfired_guacamole_styling_istyledictionary>` styleDictionary **)**   |
 +----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -66,13 +64,13 @@ Breakdown
 
 - object **SelectedPage** **{** get; set; **}**
 
+    **Description**
+
+        Selected :ref:`Page<classwellfired_guacamole_pages_page>` is the value of the backstore that should have corresponding tab view displayed. Note that the selected page should belong to the list of ItemsView.ItemSource. 
+
 .. _classwellfired_guacamole_pages_tabbedpage_1ab32dcda1f6dab2877f3ce67f6fa2b2c3:
 
 -  **TabbedPage** **(**  **)**
-
-.. _classwellfired_guacamole_pages_tabbedpage_1ae29f33369f376a16a345eb20386f9522:
-
-- void **Selected** **(** object bindingContext **)**
 
 .. _classwellfired_guacamole_pages_tabbedpage_1afa1b4d12e346ccd81845874349a49486:
 
