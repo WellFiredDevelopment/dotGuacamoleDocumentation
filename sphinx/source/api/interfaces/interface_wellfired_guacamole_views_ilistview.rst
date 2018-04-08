@@ -13,27 +13,29 @@ Description
 Properties
 -----------
 
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|int                      |:ref:`EntrySize<interfacewellfired_guacamole_views_ilistview_1a09876aef312c9ced847fc0565ea6e899>` **{** get; set; **}**          |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|int                      |:ref:`TotalContentSize<interfacewellfired_guacamole_views_ilistview_1a40450207f5fbf3d0b7e20678d1d86462>` **{** get; set; **}**   |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|int                      |:ref:`Spacing<interfacewellfired_guacamole_views_ilistview_1a3350af6164209257f476ab7f2d320e8a>` **{** get; set; **}**            |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|OrientationOptions       |:ref:`Orientation<interfacewellfired_guacamole_views_ilistview_1a85524d71596bb0f46d0a0a6d6d5aaf78>` **{** get; set; **}**        |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|float                    |:ref:`AvailableSpace<interfacewellfired_guacamole_views_ilistview_1af63383c009f563b135e77c69e5963b33>` **{** get; set; **}**     |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|INotifyPropertyChanged   |:ref:`SelectedItem<interfacewellfired_guacamole_views_ilistview_1a8cc554e5906dd55a77b354be65ccaa12>` **{** get; set; **}**       |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|float                    |:ref:`InitialOffset<interfacewellfired_guacamole_views_ilistview_1abb54acf6c51c5809fc489838bc1250f8>` **{** get; set; **}**      |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|int                      |:ref:`ScrollBarSize<interfacewellfired_guacamole_views_ilistview_1ac1e36b501fb5571fc73668a7601d7886>` **{** get; set; **}**      |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|bool                     |:ref:`CanScroll<interfacewellfired_guacamole_views_ilistview_1af9a2fddc5533e7afe0de04855e0cac04>` **{** get; set; **}**          |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
-|float                    |:ref:`ScrollOffset<interfacewellfired_guacamole_views_ilistview_1ac00f4c0355e0eb895c864e5015823440>` **{** get; set; **}**       |
-+-------------------------+---------------------------------------------------------------------------------------------------------------------------------+
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|INotifyPropertyChanged   |:ref:`SelectedItem<interfacewellfired_guacamole_views_ilistview_1a8cc554e5906dd55a77b354be65ccaa12>` **{** get; set; **}**          |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|int                      |:ref:`EntrySize<interfacewellfired_guacamole_views_ilistview_1a09876aef312c9ced847fc0565ea6e899>` **{** get; set; **}**             |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|int                      |:ref:`Spacing<interfacewellfired_guacamole_views_ilistview_1a3350af6164209257f476ab7f2d320e8a>` **{** get; set; **}**               |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|OrientationOptions       |:ref:`Orientation<interfacewellfired_guacamole_views_ilistview_1a85524d71596bb0f46d0a0a6d6d5aaf78>` **{** get; set; **}**           |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|float                    |:ref:`AvailableSpace<interfacewellfired_guacamole_views_ilistview_1af63383c009f563b135e77c69e5963b33>` **{** get; set; **}**        |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|int                      |:ref:`TotalContentSize<interfacewellfired_guacamole_views_ilistview_1a40450207f5fbf3d0b7e20678d1d86462>` **{** get; set; **}**      |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|float                    |:ref:`InitialOffset<interfacewellfired_guacamole_views_ilistview_1abb54acf6c51c5809fc489838bc1250f8>` **{** get; set; **}**         |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|int                      |:ref:`ScrollBarSize<interfacewellfired_guacamole_views_ilistview_1ac1e36b501fb5571fc73668a7601d7886>` **{** get; set; **}**         |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|bool                     |:ref:`ShouldShowScrollBar<interfacewellfired_guacamole_views_ilistview_1afc17f131c96cc81367fd134b2f3a21ab>` **{** get; set; **}**   |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|bool                     |:ref:`CanScroll<interfacewellfired_guacamole_views_ilistview_1af9a2fddc5533e7afe0de04855e0cac04>` **{** get; set; **}**             |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+|float                    |:ref:`ScrollOffset<interfacewellfired_guacamole_views_ilistview_1ac00f4c0355e0eb895c864e5015823440>` **{** get; set; **}**          |
++-------------------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -47,13 +49,13 @@ Public Methods
 Breakdown
 ----------
 
-.. _interfacewellfired_guacamole_views_ilistview_1a09876aef312c9ced847fc0565ea6e899:
-
-- int **EntrySize** **{** get; set; **}**
-
 .. _interfacewellfired_guacamole_views_ilistview_1a40450207f5fbf3d0b7e20678d1d86462:
 
 - int **TotalContentSize** **{** get; set; **}**
+
+.. _interfacewellfired_guacamole_views_ilistview_1a8cc554e5906dd55a77b354be65ccaa12:
+
+- INotifyPropertyChanged **SelectedItem** **{** get; set; **}**
 
 .. _interfacewellfired_guacamole_views_ilistview_1a3350af6164209257f476ab7f2d320e8a:
 
@@ -67,9 +69,9 @@ Breakdown
 
 - float **AvailableSpace** **{** get; set; **}**
 
-.. _interfacewellfired_guacamole_views_ilistview_1a8cc554e5906dd55a77b354be65ccaa12:
+.. _interfacewellfired_guacamole_views_ilistview_1a09876aef312c9ced847fc0565ea6e899:
 
-- INotifyPropertyChanged **SelectedItem** **{** get; set; **}**
+- int **EntrySize** **{** get; set; **}**
 
 .. _interfacewellfired_guacamole_views_ilistview_1abb54acf6c51c5809fc489838bc1250f8:
 
@@ -78,6 +80,10 @@ Breakdown
 .. _interfacewellfired_guacamole_views_ilistview_1ac1e36b501fb5571fc73668a7601d7886:
 
 - int **ScrollBarSize** **{** get; set; **}**
+
+.. _interfacewellfired_guacamole_views_ilistview_1afc17f131c96cc81367fd134b2f3a21ab:
+
+- bool **ShouldShowScrollBar** **{** get; set; **}**
 
 .. _interfacewellfired_guacamole_views_ilistview_1af9a2fddc5533e7afe0de04855e0cac04:
 
