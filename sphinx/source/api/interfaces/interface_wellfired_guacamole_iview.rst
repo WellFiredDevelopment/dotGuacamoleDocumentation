@@ -55,9 +55,17 @@ Breakdown
 
 - bool **ValidRectRequest** **{** get; set; **}**
 
+    **Description**
+
+        Flag to determine if :ref:`RectRequest<interfacewellfired_guacamole_iview_1a1df1f6cf967f996939205dc4cc83b517>` should be recalculated or not. This is used for optimization purpose to avoid recalculating the size requested by a view if there is no reason for it to have changed. 
+
 .. _interfacewellfired_guacamole_iview_1a1df1f6cf967f996939205dc4cc83b517:
 
 - :ref:`UIRect<structwellfired_guacamole_data_uirect>` **RectRequest** **{** get; set; **}**
+
+    **Description**
+
+        In one rendering loop, this value will be the size and position that the view is requesting, then the size and position that could be assigned to it based on the available space. 
 
 .. _interfacewellfired_guacamole_iview_1aca238a1c7af209c9f98442c4d817b9c2:
 
@@ -66,6 +74,10 @@ Breakdown
 .. _interfacewellfired_guacamole_iview_1a916e8374eb15ecb072555355cc9520ff:
 
 - string **Id** **{** get; set; **}**
+
+    **Description**
+
+        This is the id of the view. Most algorithm using it will consider this value to be unique for each views. So it is recommended to assign it with a random and unique fashion (GUID, incremental value), or with an arbitrary value for debugging purpose. 
 
 .. _interfacewellfired_guacamole_iview_1aa454a273ff2e63da013373f487f0101d:
 
