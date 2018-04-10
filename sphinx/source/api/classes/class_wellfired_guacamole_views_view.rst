@@ -309,6 +309,16 @@ Breakdown
 
 - void **SetStyleDictionary** **(** :ref:`IStyleDictionary<interfacewellfired_guacamole_styling_istyledictionary>` styleDictionary **)**
 
+    **Description**
+
+        Applies the styles defined by a dictionary to the view's content and all its children. 
+
+    **Parameters**
+
+        +------------------+
+        |styleDictionary   |
+        +------------------+
+        
 .. _classwellfired_guacamole_views_view_1ad01fe3fe9f659d379b468dd7407b3a2c:
 
 - void **ResetBindingContext** **(** INotifyPropertyChanged newBindingContext **)**

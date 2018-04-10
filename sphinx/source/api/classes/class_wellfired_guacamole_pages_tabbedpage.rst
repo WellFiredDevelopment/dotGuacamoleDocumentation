@@ -76,6 +76,16 @@ Breakdown
 
 - override void **SetStyleDictionary** **(** :ref:`IStyleDictionary<interfacewellfired_guacamole_styling_istyledictionary>` styleDictionary **)**
 
+    **Description**
+
+        Applies the styles defined by a dictionary to the view's content and all its children. 
+
+    **Parameters**
+
+        +------------------+
+        |styleDictionary   |
+        +------------------+
+        
 .. _classwellfired_guacamole_pages_tabbedpage_1a64c484c33ab542864ee575ec19ff39a2:
 
 - override void **ItemSourceChanged** **(**  **)**

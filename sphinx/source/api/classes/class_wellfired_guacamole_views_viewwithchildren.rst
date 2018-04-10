@@ -83,6 +83,16 @@ Breakdown
 
 - override void **SetStyleDictionary** **(** :ref:`IStyleDictionary<interfacewellfired_guacamole_styling_istyledictionary>` styleDictionary **)**
 
+    **Description**
+
+        Applies the styles defined by a dictionary to the view's content and all its children. 
+
+    **Parameters**
+
+        +------------------+
+        |styleDictionary   |
+        +------------------+
+        
 .. _classwellfired_guacamole_views_viewwithchildren_1ac5be3af369a9cbe16039502dbbccb054:
 
 - override void **ResetBindingContext** **(** INotifyPropertyChanged newBindingContext **)**
