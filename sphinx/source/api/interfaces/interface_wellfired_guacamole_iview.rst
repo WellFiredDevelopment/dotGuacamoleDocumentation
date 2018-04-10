@@ -109,7 +109,7 @@ Breakdown
 
     **Description**
 
-        The minimum size a view can have. 
+        The minimum size a view can have with padding included. 
 
 .. _interfacewellfired_guacamole_iview_1a28ed1c4aa87f0453699ffb4774e58e89:
 
@@ -117,7 +117,7 @@ Breakdown
 
     **Description**
 
-        The maximum size a view can have. 
+        The maximum size a view can have with padding included. 
 
 .. _interfacewellfired_guacamole_iview_1a3f6f14116b6c5112a5b6f8c66e8145e5:
 
