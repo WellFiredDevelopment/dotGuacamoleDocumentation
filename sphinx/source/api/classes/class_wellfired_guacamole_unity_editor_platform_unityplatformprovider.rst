@@ -16,9 +16,11 @@ An implementation of the :ref:`Platform<namespacewellfired_guacamole_unity_edito
 Public Properties
 ------------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`ProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825>`    |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------+
++-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`ProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825>`         |
++-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`PlatformHasFocus<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a8f74d4b21cfcd373754077ae8818665d>`    |
++-------------+------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -43,6 +45,10 @@ Breakdown
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825:
 
 - string **ProjectPath** 
+
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a8f74d4b21cfcd373754077ae8818665d:
+
+- bool **PlatformHasFocus** 
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a268f1d8dcecb5f28c5bdc8338d4a8b36:
 

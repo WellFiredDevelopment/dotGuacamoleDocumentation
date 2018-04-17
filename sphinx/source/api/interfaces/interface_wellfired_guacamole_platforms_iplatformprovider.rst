@@ -13,9 +13,11 @@ Provides some platform specific implementations of certain functionalities.
 Properties
 -----------
 
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------+
-|string       |:ref:`ProjectPath<interfacewellfired_guacamole_platforms_iplatformprovider_1abe8d74b77214f7a777830d160f0578b5>` **{** get; set; **}**   |
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------+
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`ProjectPath<interfacewellfired_guacamole_platforms_iplatformprovider_1abe8d74b77214f7a777830d160f0578b5>` **{** get; set; **}**        |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`PlatformHasFocus<interfacewellfired_guacamole_platforms_iplatformprovider_1af2da63b99ddda8a4ea0bd58a82bedc0c>` **{** get; set; **}**   |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -42,6 +44,14 @@ Breakdown
     **Description**
 
         Path where the project is saved. 
+
+.. _interfacewellfired_guacamole_platforms_iplatformprovider_1af2da63b99ddda8a4ea0bd58a82bedc0c:
+
+- bool **PlatformHasFocus** **{** get; set; **}**
+
+    **Description**
+
+        Indicate if the platform application is focused or not. 
 
 .. _interfacewellfired_guacamole_platforms_iplatformprovider_1ad77b2d416c10915a23db0871fa89a111:
 

@@ -17,7 +17,7 @@ Public Methods
 ---------------
 
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`FileSystemDataWatcher<classwellfired_guacamole_datastorage_data_synchronization_filesystemdatawatcher_1a5f16732ef54a2e305e135c73988d2e04>` **(** string dataPath **)**                                                                                                              |
+|             |:ref:`FileSystemDataWatcher<classwellfired_guacamole_datastorage_data_synchronization_filesystemdatawatcher_1a42d536cd6d731a57451e35a00a50ff33>` **(** string dataPath, Func< bool > isFocusedFunc = null **)**                                                                           |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`Watch<classwellfired_guacamole_datastorage_data_synchronization_filesystemdatawatcher_1a62d4f1dbbe702f0b61cf71321996ea4a>` **(** string key **)**                                                                                                                                   |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -31,9 +31,9 @@ Public Methods
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_datastorage_data_synchronization_filesystemdatawatcher_1a5f16732ef54a2e305e135c73988d2e04:
+.. _classwellfired_guacamole_datastorage_data_synchronization_filesystemdatawatcher_1a42d536cd6d731a57451e35a00a50ff33:
 
--  **FileSystemDataWatcher** **(** string dataPath **)**
+-  **FileSystemDataWatcher** **(** string dataPath, Func< bool > isFocusedFunc = null **)**
 
 .. _classwellfired_guacamole_datastorage_data_synchronization_filesystemdatawatcher_1a62d4f1dbbe702f0b61cf71321996ea4a:
 
