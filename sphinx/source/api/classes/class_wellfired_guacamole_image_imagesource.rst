@@ -13,16 +13,11 @@ Description
 
 
 
-Public Properties
-------------------
-
-+-------------+----------------------------------------------------------------------------------------------------+
-|bool         |:ref:`InProgress<classwellfired_guacamole_image_imagesource_1ab724da5cf7ed685a9eb9d22c0e9ad234>`    |
-+-------------+----------------------------------------------------------------------------------------------------+
-
 Properties
 -----------
 
++---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+|bool                                                                       |:ref:`InProgress<classwellfired_guacamole_image_imagesource_1ab724da5cf7ed685a9eb9d22c0e9ad234>` **{** get; set; **}**   |
 +---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 |Action< :ref:`LoadedImage<classwellfired_guacamole_image_loadedimage>` >   |:ref:`OnComplete<classwellfired_guacamole_image_imagesource_1a7c0ab6c74bf9fb8c92b3341108c80c09>` **{** get; set; **}**   |
 +---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -58,7 +53,7 @@ Breakdown
 
 .. _classwellfired_guacamole_image_imagesource_1ab724da5cf7ed685a9eb9d22c0e9ad234:
 
-- bool **InProgress** 
+- bool **InProgress** **{** get; set; **}**
 
 .. _classwellfired_guacamole_image_imagesource_1a7c0ab6c74bf9fb8c92b3341108c80c09:
 
@@ -71,6 +66,10 @@ Breakdown
 .. _classwellfired_guacamole_image_imagesource_1aef451ebea8dcea81a835e377a57ae118:
 
 - void **Cancel** **(**  **)**
+
+    **Description**
+
+        Cancel the current loading process. We can cancel our async tasks at any time, but when it is cancelled exactly the task depends on how the different handlers handle the cancellation token. Therefore, it's very possible that InProgress still return true while the task is not fully cancelled yet. 
 
 .. _classwellfired_guacamole_image_imagesource_1adb2a3143e07279dfcbdd4d43261303ac:
 
