@@ -23,13 +23,13 @@ Public Properties
 Public Methods
 ---------------
 
-+----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override async void   |:ref:`Create<classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a56781a619c5ad2693f50cca70184d274>` **(**  **)**                                                                  |
-+----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void         |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a63dbe87ee8bf771882c01c188debb100>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
-+----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override async void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a5cdb1fab76f7a863d958846c44346daf>` **(** object sender, PropertyChangedEventArgs e **)**              |
-+----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`Create<classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a9602c4930be68a7c106129e629a97339>` **(**  **)**                                                                  |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a63dbe87ee8bf771882c01c188debb100>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1adc322421b6c1127cf0231dbf72210368>` **(** object sender, PropertyChangedEventArgs e **)**              |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -38,15 +38,15 @@ Breakdown
 
 - override :ref:`UISize<structwellfired_guacamole_data_uisize>` **NativeSize** 
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a56781a619c5ad2693f50cca70184d274:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a9602c4930be68a7c106129e629a97339:
 
-- override async void **Create** **(**  **)**
+- override void **Create** **(**  **)**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a63dbe87ee8bf771882c01c188debb100:
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1a5cdb1fab76f7a863d958846c44346daf:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_toggleviewrenderer_1adc322421b6c1127cf0231dbf72210368:
 
-- override async void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

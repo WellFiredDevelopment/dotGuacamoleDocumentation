@@ -92,7 +92,7 @@ Breakdown
 
     **Description**
 
-        This is called when the whole ItemSource is changed. I.E. ItemSource = new collection(); Note : This is only called if ItemSource is an ObservableCollection. 
+        This is called when the whole ItemSource is changed. I.E. ItemSource = new collection(); 
 
 .. _classwellfired_guacamole_pages_tabbedpage_1a89bb329bfdba1bbb52be6684061218f2:
 
