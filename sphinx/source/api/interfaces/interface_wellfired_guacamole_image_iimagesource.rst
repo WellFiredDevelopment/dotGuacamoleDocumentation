@@ -14,8 +14,6 @@ Properties
 -----------
 
 +---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-|bool                                                                       |:ref:`InProgress<interfacewellfired_guacamole_image_iimagesource_1a37fb3d6b5f9cdf2442d0c99fa828faf4>` **{** get; set; **}**   |
-+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 |Action< :ref:`LoadedImage<classwellfired_guacamole_image_loadedimage>` >   |:ref:`OnComplete<interfacewellfired_guacamole_image_iimagesource_1a9263b96aed8de39c2646e1567f5bccde>` **{** get; set; **}**   |
 +---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
 
@@ -30,10 +28,6 @@ Public Methods
 
 Breakdown
 ----------
-
-.. _interfacewellfired_guacamole_image_iimagesource_1a37fb3d6b5f9cdf2442d0c99fa828faf4:
-
-- bool **InProgress** **{** get; set; **}**
 
 .. _interfacewellfired_guacamole_image_iimagesource_1a9263b96aed8de39c2646e1567f5bccde:
 
