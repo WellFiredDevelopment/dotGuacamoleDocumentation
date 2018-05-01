@@ -16,6 +16,8 @@ Properties
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`ProjectPath<interfacewellfired_guacamole_platforms_iplatformprovider_1abe8d74b77214f7a777830d160f0578b5>` **{** get; set; **}**        |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`AssetPath<interfacewellfired_guacamole_platforms_iplatformprovider_1a1bcbd4216819784790dc6ca07c659365>` **{** get; set; **}**          |
++-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`PlatformHasFocus<interfacewellfired_guacamole_platforms_iplatformprovider_1af2da63b99ddda8a4ea0bd58a82bedc0c>` **{** get; set; **}**   |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -33,6 +35,8 @@ Public Methods
 +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                              |:ref:`PathToPersonalData<interfacewellfired_guacamole_platforms_iplatformprovider_1a6b7b25cbbde8b02d555058cecfad09b5>` **(** string file **)**                                     |
 +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string[]                                                                                            |:ref:`FindAssets<interfacewellfired_guacamole_platforms_iplatformprovider_1aeeff2815573d692f1058fca05b3b95c2>` **(** string search **)**                                           |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -44,6 +48,14 @@ Breakdown
     **Description**
 
         Path where the project is saved. 
+
+.. _interfacewellfired_guacamole_platforms_iplatformprovider_1a1bcbd4216819784790dc6ca07c659365:
+
+- string **AssetPath** **{** get; set; **}**
+
+    **Description**
+
+        Path where the project assets are saved. 
 
 .. _interfacewellfired_guacamole_platforms_iplatformprovider_1af2da63b99ddda8a4ea0bd58a82bedc0c:
 
@@ -114,4 +126,18 @@ Breakdown
         +-------------+
         |file         |
         +-------------+
+        
+.. _interfacewellfired_guacamole_platforms_iplatformprovider_1aeeff2815573d692f1058fca05b3b95c2:
+
+- string[] **FindAssets** **(** string search **)**
+
+    **Description**
+
+        This method allows to search through the assets of the project. 
+
+    **Parameters**
+
+        +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+        |search       |String specifying how to filter the result. On some platforms such as :ref:`Unity<namespacewellfired_guacamole_unity>`, it's possible to specify the type and the label of the asset. For example, "co l:concrete l:architecture t:texture2D" will return all the textures containing "co" in their name and with labels concrete and architecture.   |
+        +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
         

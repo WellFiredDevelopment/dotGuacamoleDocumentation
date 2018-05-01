@@ -19,6 +19,8 @@ Public Properties
 +-------------+------------------------------------------------------------------------------------------------------------------------------------+
 |string       |:ref:`ProjectPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825>`         |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------+
+|string       |:ref:`AssetPath<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a7f079e8c45df6bc3d311f9332eaf9b1a>`           |
++-------------+------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`PlatformHasFocus<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a8f74d4b21cfcd373754077ae8818665d>`    |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------+
 
@@ -38,6 +40,8 @@ Public Methods
 +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |string                                                                                              |:ref:`PathToPersonalData<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1afde4d4e8ae61dd75252d077f38a715e5>` **(** string file **)**                                     |
 +----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string[]                                                                                            |:ref:`FindAssets<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a53c492cdef37b86ef381e91d5a4057e3>` **(** string search **)**                                           |
++----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -45,6 +49,10 @@ Breakdown
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acd7053d54f5dd13065ed61310c6e5825:
 
 - string **ProjectPath** 
+
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a7f079e8c45df6bc3d311f9332eaf9b1a:
+
+- string **AssetPath** 
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a8f74d4b21cfcd373754077ae8818665d:
 
@@ -115,4 +123,18 @@ Breakdown
         +-------------+
         |file         |
         +-------------+
+        
+.. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a53c492cdef37b86ef381e91d5a4057e3:
+
+- string[] **FindAssets** **(** string search **)**
+
+    **Description**
+
+        This method allows to search through the assets of the project. 
+
+    **Parameters**
+
+        +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+        |search       |String specifying how to filter the result. On some platforms such as :ref:`Unity<namespacewellfired_guacamole_unity>`, it's possible to specify the type and the label of the asset. For example, "co l:concrete l:architecture t:texture2D" will return all the textures containing "co" in their name and with labels concrete and architecture.   |
+        +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
         
