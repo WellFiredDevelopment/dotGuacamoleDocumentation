@@ -20,11 +20,11 @@ Properties
 Public Static Methods
 ----------------------
 
-+--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                                                                            |:ref:`ImportExternalRenderers<classwellfired_guacamole_renderer_nativerendererhelper_1a2a27052e4d708d900af2df359e78c952>` **(** Assembly[] assemblies **)**   |
-+--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`INativeRenderer<interfacewellfired_guacamole_renderer_inativerenderer>`   |:ref:`CreateNativeRendererFor<classwellfired_guacamole_renderer_nativerendererhelper_1a5c688881be4d69e0798027498274ff4f>` **(** Type controlType **)**        |
-+--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                                                                            |:ref:`ImportExternalRenderers<classwellfired_guacamole_renderer_nativerendererhelper_1a65ae63b2d3ce11337c0059b4edce26c1>` **(** Assembly assembly **)**   |
++--------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`INativeRenderer<interfacewellfired_guacamole_renderer_inativerenderer>`   |:ref:`CreateNativeRendererFor<classwellfired_guacamole_renderer_nativerendererhelper_1a5c688881be4d69e0798027498274ff4f>` **(** Type controlType **)**    |
++--------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -33,9 +33,9 @@ Breakdown
 
 - Assembly **LaunchedAssembly** **{** get; set; **}**
 
-.. _classwellfired_guacamole_renderer_nativerendererhelper_1a2a27052e4d708d900af2df359e78c952:
+.. _classwellfired_guacamole_renderer_nativerendererhelper_1a65ae63b2d3ce11337c0059b4edce26c1:
 
-- void **ImportExternalRenderers** **(** Assembly[] assemblies **)**
+- void **ImportExternalRenderers** **(** Assembly assembly **)**
 
 .. _classwellfired_guacamole_renderer_nativerendererhelper_1a5c688881be4d69e0798027498274ff4f:
 
