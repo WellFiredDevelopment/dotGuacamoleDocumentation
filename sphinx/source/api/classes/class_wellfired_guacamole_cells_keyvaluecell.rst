@@ -11,7 +11,7 @@ KeyValueCell
 Description
 ------------
 
-
+:ref:`KeyValueCell<classwellfired_guacamole_cells_keyvaluecell>` is a cell divided in two. The left part corresponds to the text of the key value, the right part corresponds to the text of the value value. This is useful to display a list of settings with the following fashion : Automatically commit yes API used OpenGL ..... 
 
 public-static-attrib
 ---------------------
@@ -74,6 +74,10 @@ Breakdown
 .. _classwellfired_guacamole_cells_keyvaluecell_1a066b72004f8822bac8fc0d073d669df1:
 
 - int **ValueWidth** **{** get; set; **}**
+
+    **Description**
+
+        This is the fixed width occupied by the value content. If for example the cell is filling all the available space horizontally, then the value part will still have the same width, only key part will expand. This ensures that when key value cells are placed under each other, the values are all aligned. 
 
 .. _classwellfired_guacamole_cells_keyvaluecell_1a937f37fdac2b2f08fe27a347b7e9d469:
 

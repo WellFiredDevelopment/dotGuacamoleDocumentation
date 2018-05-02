@@ -16,11 +16,9 @@ Description
 Properties
 -----------
 
-+----------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override bool                                                   |:ref:`CanMouseOver<classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a0cd09b160a5365f3e275908f9100d796>` **{** get; set; **}**   |
-+----------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override :ref:`UISize<structwellfired_guacamole_data_uisize>`   |:ref:`NativeSize<classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a6e367a129fe57df66ab744b9c5f852b6>` **{** get; set; **}**     |
-+----------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override :ref:`UISize<structwellfired_guacamole_data_uisize>`   |:ref:`NativeSize<classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a6e367a129fe57df66ab744b9c5f852b6>` **{** get; set; **}**   |
++----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -40,10 +38,6 @@ protected-func
 
 Breakdown
 ----------
-
-.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a0cd09b160a5365f3e275908f9100d796:
-
-- override bool **CanMouseOver** **{** get; set; **}**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a6e367a129fe57df66ab744b9c5f852b6:
 

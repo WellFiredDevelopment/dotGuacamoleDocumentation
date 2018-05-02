@@ -13,13 +13,6 @@ Description
 
 
 
-Properties
------------
-
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`CanMouseOver<classwellfired_guacamole_unity_editor_nativecontrols_cells_basecellrenderer_1a60a8c49b1b7037af0baa8a9a6bae32c3>` **{** get; set; **}**   |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
 Public Methods
 ---------------
 
@@ -29,10 +22,6 @@ Public Methods
 
 Breakdown
 ----------
-
-.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_basecellrenderer_1a60a8c49b1b7037af0baa8a9a6bae32c3:
-
-- bool **CanMouseOver** **{** get; set; **}**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_cells_basecellrenderer_1a9a8459674667dc92edd153e5397f7a1c:
 
