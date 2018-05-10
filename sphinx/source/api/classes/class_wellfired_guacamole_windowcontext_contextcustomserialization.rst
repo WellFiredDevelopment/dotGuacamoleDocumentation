@@ -8,7 +8,7 @@ ContextCustomSerialization
 Description
 ------------
 
-
+This class has for only purpose to serialize some of the :ref:`Context<classwellfired_guacamole_windowcontext_context>` properties in a custom way. For example, UIRect location and size has a direct influence on the value X, Y, Width, Height. We don't want to serialize them. 
 
 Public Methods
 ---------------

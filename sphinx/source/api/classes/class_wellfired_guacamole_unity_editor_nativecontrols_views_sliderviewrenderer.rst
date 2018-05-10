@@ -13,12 +13,12 @@ Description
 
 
 
-Properties
------------
+Public Properties
+------------------
 
-+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override :ref:`UISize<structwellfired_guacamole_data_uisize>`   |:ref:`NativeSize<classwellfired_guacamole_unity_editor_nativecontrols_views_sliderviewrenderer_1a99c2c7a97b17f440120f61b29ae56c87>` **{** get; set; **}**   |
-+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|override :ref:`UISize<structwellfired_guacamole_data_uisize>`   |:ref:`NativeSize<classwellfired_guacamole_unity_editor_nativecontrols_views_sliderviewrenderer_1a99c2c7a97b17f440120f61b29ae56c87>`    |
++----------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -34,7 +34,7 @@ Breakdown
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_views_sliderviewrenderer_1a99c2c7a97b17f440120f61b29ae56c87:
 
-- override :ref:`UISize<structwellfired_guacamole_data_uisize>` **NativeSize** **{** get; set; **}**
+- override :ref:`UISize<structwellfired_guacamole_data_uisize>` **NativeSize** 
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_views_sliderviewrenderer_1a2e9dbbdcec364b4fa925fffb42dae32a:
 

@@ -69,6 +69,10 @@ Breakdown
 
 - bool **CanMouseOver** **{** get; set; **}**
 
+    **Description**
+
+        If true and the view is not disabled, then the cell can be selected. 
+
 .. _classwellfired_guacamole_cells_cell_1a3899b5e9f8f4ba4df3f4ef49cb97c1e7:
 
 - :ref:`IListView<interfacewellfired_guacamole_views_ilistview>` **Container** **{** get; set; **}**

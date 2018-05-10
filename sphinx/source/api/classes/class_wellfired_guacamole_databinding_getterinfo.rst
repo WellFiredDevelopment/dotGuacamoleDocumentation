@@ -24,3 +24,17 @@ Breakdown
 
 - void **GetInfo< TA, TB >** **(** Expression< Func< TA, TB >> getter, out string propertyName, out Type propertyType **)**
 
+    **Description**
+
+        Extract the property name and property type from an Expression. This is a convenient way to get something similar to reflexion without the hassle of using non-refactorable string values. If the expression is v => v.Text and that Text is a property belonging to v of type string, then the returned name will be "Text" and the return type will be string. 
+
+    **Parameters**
+
+        +---------------+----------------------------------------------------------------------+
+        |getter         |the expression returning the property we want to get name and type.   |
+        +---------------+----------------------------------------------------------------------+
+        |propertyName   |                                                                      |
+        +---------------+----------------------------------------------------------------------+
+        |propertyType   |                                                                      |
+        +---------------+----------------------------------------------------------------------+
+        
