@@ -13,22 +13,22 @@ Description
 Public Static Methods
 ----------------------
 
-+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                 |:ref:`CalculateVisualDataSetWithVariableHeight<classwellfired_guacamole_views_vdscalculator_1a15c40cdad116f36742d3c685a304cf09>` **(** float scrollOffset, float visibleControlSize, int maxEntries, Func< int, int > obtainHeight, ref List< int > visibleDataSet **)**   |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|IEnumerable< int >   |:ref:`CalculateVisualDataSet<classwellfired_guacamole_views_vdscalculator_1a64801cacef0d98a16f530030ff2dc37b>` **(** float virtualScrollPosition, int visibleControlSize, int estimatedElementSize, int estimatedContentSize, int spacing **)**                            |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                 |:ref:`AdjustForNewVds<classwellfired_guacamole_views_vdscalculator_1a009ed5ae94f985fd76ea8be31d602318>` **(** List< int > oldVds, List< int > newVds, :ref:`IListensToVdsChanges<interfacewellfired_guacamole_views_ilistenstovdschanges>` listensToVdsChanges **)**       |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|float                |:ref:`DesiredScrollFor<classwellfired_guacamole_views_vdscalculator_1a13b490891384bb02a459a151235e3170>` **(** int dataIndex, int maxEntries, Func< int, int > obtainHeight **)**                                                                                          |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                 |:ref:`CalculateVisualDataSetWithVariableHeight<classwellfired_guacamole_views_vdscalculator_1a9e67f324c7e7fa077d5b3381582a67bb>` **(** float scrollOffset, float visibleControlSize, int maxEntries, Func< int, int > obtainHeight, ref List< int > visibleDataSet, out float initialOffset **)**   |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|IEnumerable< int >   |:ref:`CalculateVisualDataSet<classwellfired_guacamole_views_vdscalculator_1a64801cacef0d98a16f530030ff2dc37b>` **(** float virtualScrollPosition, int visibleControlSize, int estimatedElementSize, int estimatedContentSize, int spacing **)**                                                     |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                 |:ref:`AdjustForNewVds<classwellfired_guacamole_views_vdscalculator_1a009ed5ae94f985fd76ea8be31d602318>` **(** List< int > oldVds, List< int > newVds, :ref:`IListensToVdsChanges<interfacewellfired_guacamole_views_ilistenstovdschanges>` listensToVdsChanges **)**                                |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|float                |:ref:`DesiredScrollFor<classwellfired_guacamole_views_vdscalculator_1a13b490891384bb02a459a151235e3170>` **(** int dataIndex, int maxEntries, Func< int, int > obtainHeight **)**                                                                                                                   |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_views_vdscalculator_1a15c40cdad116f36742d3c685a304cf09:
+.. _classwellfired_guacamole_views_vdscalculator_1a9e67f324c7e7fa077d5b3381582a67bb:
 
-- void **CalculateVisualDataSetWithVariableHeight** **(** float scrollOffset, float visibleControlSize, int maxEntries, Func< int, int > obtainHeight, ref List< int > visibleDataSet **)**
+- void **CalculateVisualDataSetWithVariableHeight** **(** float scrollOffset, float visibleControlSize, int maxEntries, Func< int, int > obtainHeight, ref List< int > visibleDataSet, out float initialOffset **)**
 
 .. _classwellfired_guacamole_views_vdscalculator_1a64801cacef0d98a16f530030ff2dc37b:
 

@@ -106,7 +106,7 @@ Public Methods
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 |int          |:ref:`GetEntrySizeFor<classwellfired_guacamole_views_listview_1ae202969c56be4f6be3a1376ce1251188>` **(** object data **)**               |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`ItemLeftVds<classwellfired_guacamole_views_listview_1a885c4651af80105a9cc129650800ba0a>` **(** int vdsIndex, bool front **)**      |
+|void         |:ref:`ItemLeftVds<classwellfired_guacamole_views_listview_1a2d2e785b2d2086c1652fb2e5715fe399>` **(** int vdsIndex **)**                  |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`ItemEnteredVds<classwellfired_guacamole_views_listview_1ab9196503f4bd084a784a910c00b30648>` **(** int vdsIndex, bool front **)**   |
 +-------------+-----------------------------------------------------------------------------------------------------------------------------------------+
@@ -319,9 +319,9 @@ Breakdown
         |data         |The Bound object whos size we want to check.   |
         +-------------+-----------------------------------------------+
         
-.. _classwellfired_guacamole_views_listview_1a885c4651af80105a9cc129650800ba0a:
+.. _classwellfired_guacamole_views_listview_1a2d2e785b2d2086c1652fb2e5715fe399:
 
-- void **ItemLeftVds** **(** int vdsIndex, bool front **)**
+- void **ItemLeftVds** **(** int vdsIndex **)**
 
     **Description**
 
@@ -329,11 +329,9 @@ Breakdown
 
     **Parameters**
 
-        +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-        |vdsIndex     |                                                                                                                                                                    |
-        +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-        |front        |indicate if the item added is on the top of already visible children (front is equal to true), or if it is at the bottom (left or right for horizontal list view)   |
-        +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+        +-------------+
+        |vdsIndex     |
+        +-------------+
         
 .. _classwellfired_guacamole_views_listview_1ab9196503f4bd084a784a910c00b30648:
 

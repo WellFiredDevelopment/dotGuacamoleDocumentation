@@ -14,7 +14,7 @@ Public Methods
 ---------------
 
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`ItemLeftVds<interfacewellfired_guacamole_views_ilistenstovdschanges_1a76c335858fb8d4645ac668d83a58b29b>` **(** int vdsIndex, bool front **)**      |
+|void         |:ref:`ItemLeftVds<interfacewellfired_guacamole_views_ilistenstovdschanges_1af30f7b86c2d6d69580f689660ea5c134>` **(** int vdsIndex **)**                  |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`ItemEnteredVds<interfacewellfired_guacamole_views_ilistenstovdschanges_1ad8db082d9d955d864e864c062929ccf2>` **(** int vdsIndex, bool front **)**   |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -22,9 +22,9 @@ Public Methods
 Breakdown
 ----------
 
-.. _interfacewellfired_guacamole_views_ilistenstovdschanges_1a76c335858fb8d4645ac668d83a58b29b:
+.. _interfacewellfired_guacamole_views_ilistenstovdschanges_1af30f7b86c2d6d69580f689660ea5c134:
 
-- void **ItemLeftVds** **(** int vdsIndex, bool front **)**
+- void **ItemLeftVds** **(** int vdsIndex **)**
 
 .. _interfacewellfired_guacamole_views_ilistenstovdschanges_1ad8db082d9d955d864e864c062929ccf2:
 
