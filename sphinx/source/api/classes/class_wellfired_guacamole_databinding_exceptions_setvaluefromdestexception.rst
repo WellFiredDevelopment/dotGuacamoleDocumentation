@@ -16,18 +16,18 @@ Description
 Public Methods
 ---------------
 
-+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                  |:ref:`SetValueFromDestException<classwellfired_guacamole_databinding_exceptions_setvaluefromdestexception_1a41199f5f77b7c6eeee1dba0d7d9b4f03>` **(** INotifyPropertyChanged bindableObject, string propertyPropertyName, string targetProperty, object value **)**   |
-+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override string   |:ref:`UserFacingError<classwellfired_guacamole_databinding_exceptions_setvaluefromdestexception_1ad8022e439e43640dd11976a75db304f1>` **(**  **)**                                                                                                                    |
-+------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                  |:ref:`SetValueFromDestException<classwellfired_guacamole_databinding_exceptions_setvaluefromdestexception_1adbdd27f9d7c34dfa0bf0c5ffed22fadb>` **(** INotifyPropertyChanged bindableObject, string propertyPropertyName, string targetProperty, object value, Exception exception **)**   |
++------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override string   |:ref:`UserFacingError<classwellfired_guacamole_databinding_exceptions_setvaluefromdestexception_1ad8022e439e43640dd11976a75db304f1>` **(**  **)**                                                                                                                                         |
++------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_databinding_exceptions_setvaluefromdestexception_1a41199f5f77b7c6eeee1dba0d7d9b4f03:
+.. _classwellfired_guacamole_databinding_exceptions_setvaluefromdestexception_1adbdd27f9d7c34dfa0bf0c5ffed22fadb:
 
--  **SetValueFromDestException** **(** INotifyPropertyChanged bindableObject, string propertyPropertyName, string targetProperty, object value **)**
+-  **SetValueFromDestException** **(** INotifyPropertyChanged bindableObject, string propertyPropertyName, string targetProperty, object value, Exception exception **)**
 
 .. _classwellfired_guacamole_databinding_exceptions_setvaluefromdestexception_1ad8022e439e43640dd11976a75db304f1:
 
