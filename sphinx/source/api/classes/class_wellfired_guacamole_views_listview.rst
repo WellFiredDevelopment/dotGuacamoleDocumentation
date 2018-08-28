@@ -20,9 +20,13 @@ public-static-attrib
 ---------------------
 
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`ScrollBarBackgroundColorProperty<classwellfired_guacamole_views_listview_1a4ed33708352e7c3fa7b25707cf1cebf8>`     |
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`ScrollOffsetProperty<classwellfired_guacamole_views_listview_1a32147459ab2b70e4ece051694069831d>`                 |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
 |readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`SpacingProperty<classwellfired_guacamole_views_listview_1ad6e145acdf4c31f808fee400c4ee757f>`                      |
++------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`SelectedItemProperty<classwellfired_guacamole_views_listview_1a191f4e7cacc3839d03997ff292f1c446>`                 |
++------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`SelectedItemsProperty<classwellfired_guacamole_views_listview_1a6e7d59eb742a78a0cb1dfb66f191c2ee>`                |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
 |readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`EntrySizeProperty<classwellfired_guacamole_views_listview_1a7d8abf0835258e5326b3ea8905d3c26f>`                    |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
@@ -34,9 +38,9 @@ public-static-attrib
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
 |readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`CanScrollProperty<classwellfired_guacamole_views_listview_1a7d803ab9ec53a634869fdec41e3de7ff>`                    |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`ScrollOffsetProperty<classwellfired_guacamole_views_listview_1a32147459ab2b70e4ece051694069831d>`                 |
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`CanMultiSelectProperty<classwellfired_guacamole_views_listview_1a8d39efe7de38b90084f2c8f2bbc0422e>`               |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
-|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`SelectedItemProperty<classwellfired_guacamole_views_listview_1a191f4e7cacc3839d03997ff292f1c446>`                 |
+|readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`ScrollBarBackgroundColorProperty<classwellfired_guacamole_views_listview_1a4ed33708352e7c3fa7b25707cf1cebf8>`     |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
 |readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`ScrollBarOutlineColorProperty<classwellfired_guacamole_views_listview_1a49027b6c5e642e1886513425fa5e544d>`        |
 +------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------+
@@ -57,9 +61,13 @@ Properties
 -----------
 
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`UIColor<structwellfired_guacamole_data_uicolor>`                                                                                     |:ref:`ScrollBarOutlineColor<classwellfired_guacamole_views_listview_1a1d4b35b971188993ef37153040c8172f>` **{** get; set; **}**       |
+|:ref:`UIColor<structwellfired_guacamole_data_uicolor>`                                                                                     |:ref:`ScrollBarBackgroundColor<classwellfired_guacamole_views_listview_1aa24136dc19271940b4c778f1aa0e27a9>` **{** get; set; **}**    |
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 |int                                                                                                                                        |:ref:`Spacing<classwellfired_guacamole_views_listview_1aac898b685b9e83707729d162627a5a99>` **{** get; set; **}**                     |
++-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|INotifyPropertyChanged                                                                                                                     |:ref:`SelectedItem<classwellfired_guacamole_views_listview_1afa5c13408f2ce2bc914617688fe64c9d>` **{** get; set; **}**                |
++-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`ObservableCollection<classwellfired_guacamole_data_collection_observablecollection>`< INotifyPropertyChanged >                       |:ref:`SelectedItems<classwellfired_guacamole_views_listview_1a1d9cbc5e49e248eb1e2f7ef0ebd312a2>` **{** get; set; **}**               |
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 |int                                                                                                                                        |:ref:`EntrySize<classwellfired_guacamole_views_listview_1a9f9234f0d3a3ad23a3409030530143a3>` **{** get; set; **}**                   |
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
@@ -73,9 +81,9 @@ Properties
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 |float                                                                                                                                      |:ref:`ScrollOffset<classwellfired_guacamole_views_listview_1a9578b315d436052e8a019ee82e04b097>` **{** get; set; **}**                |
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`UIColor<structwellfired_guacamole_data_uicolor>`                                                                                     |:ref:`ScrollBarBackgroundColor<classwellfired_guacamole_views_listview_1aa24136dc19271940b4c778f1aa0e27a9>` **{** get; set; **}**    |
+|bool                                                                                                                                       |:ref:`CanMultiSelect<classwellfired_guacamole_views_listview_1ac4c06def997cdcc0e87bb1857d52412b>` **{** get; set; **}**              |
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
-|INotifyPropertyChanged                                                                                                                     |:ref:`SelectedItem<classwellfired_guacamole_views_listview_1afa5c13408f2ce2bc914617688fe64c9d>` **{** get; set; **}**                |
+|:ref:`UIColor<structwellfired_guacamole_data_uicolor>`                                                                                     |:ref:`ScrollBarOutlineColor<classwellfired_guacamole_views_listview_1a1d4b35b971188993ef37153040c8172f>` **{** get; set; **}**       |
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
 |double                                                                                                                                     |:ref:`ScrollBarCornerRadius<classwellfired_guacamole_views_listview_1ab9f8cbca53a9db61e5d4da515be81f77>` **{** get; set; **}**       |
 +-------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------+
@@ -131,13 +139,21 @@ protected-func
 Breakdown
 ----------
 
+.. _classwellfired_guacamole_views_listview_1a8d39efe7de38b90084f2c8f2bbc0422e:
+
+- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **CanMultiSelectProperty** 
+
+.. _classwellfired_guacamole_views_listview_1a32147459ab2b70e4ece051694069831d:
+
+- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **ScrollOffsetProperty** 
+
 .. _classwellfired_guacamole_views_listview_1a191f4e7cacc3839d03997ff292f1c446:
 
 - readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **SelectedItemProperty** 
 
-.. _classwellfired_guacamole_views_listview_1a4ed33708352e7c3fa7b25707cf1cebf8:
+.. _classwellfired_guacamole_views_listview_1a6e7d59eb742a78a0cb1dfb66f191c2ee:
 
-- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **ScrollBarBackgroundColorProperty** 
+- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **SelectedItemsProperty** 
 
 .. _classwellfired_guacamole_views_listview_1a7d8abf0835258e5326b3ea8905d3c26f:
 
@@ -159,13 +175,13 @@ Breakdown
 
 - readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **CanScrollProperty** 
 
-.. _classwellfired_guacamole_views_listview_1a32147459ab2b70e4ece051694069831d:
-
-- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **ScrollOffsetProperty** 
-
 .. _classwellfired_guacamole_views_listview_1ad6e145acdf4c31f808fee400c4ee757f:
 
 - readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **SpacingProperty** 
+
+.. _classwellfired_guacamole_views_listview_1a4ed33708352e7c3fa7b25707cf1cebf8:
+
+- readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **ScrollBarBackgroundColorProperty** 
 
 .. _classwellfired_guacamole_views_listview_1a49027b6c5e642e1886513425fa5e544d:
 
@@ -195,13 +211,21 @@ Breakdown
 
 - readonly :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **ShouldShowScrollBarProperty** 
 
+.. _classwellfired_guacamole_views_listview_1ac4c06def997cdcc0e87bb1857d52412b:
+
+- bool **CanMultiSelect** **{** get; set; **}**
+
+.. _classwellfired_guacamole_views_listview_1aa24136dc19271940b4c778f1aa0e27a9:
+
+- :ref:`UIColor<structwellfired_guacamole_data_uicolor>` **ScrollBarBackgroundColor** **{** get; set; **}**
+
 .. _classwellfired_guacamole_views_listview_1afa5c13408f2ce2bc914617688fe64c9d:
 
 - INotifyPropertyChanged **SelectedItem** **{** get; set; **}**
 
-.. _classwellfired_guacamole_views_listview_1a1d4b35b971188993ef37153040c8172f:
+.. _classwellfired_guacamole_views_listview_1a1d9cbc5e49e248eb1e2f7ef0ebd312a2:
 
-- :ref:`UIColor<structwellfired_guacamole_data_uicolor>` **ScrollBarOutlineColor** **{** get; set; **}**
+- :ref:`ObservableCollection<classwellfired_guacamole_data_collection_observablecollection>`< INotifyPropertyChanged > **SelectedItems** **{** get; set; **}**
 
 .. _classwellfired_guacamole_views_listview_1a9f9234f0d3a3ad23a3409030530143a3:
 
@@ -235,13 +259,13 @@ Breakdown
 
 - float **ScrollOffset** **{** get; set; **}**
 
-.. _classwellfired_guacamole_views_listview_1aa24136dc19271940b4c778f1aa0e27a9:
-
-- :ref:`UIColor<structwellfired_guacamole_data_uicolor>` **ScrollBarBackgroundColor** **{** get; set; **}**
-
 .. _classwellfired_guacamole_views_listview_1aac898b685b9e83707729d162627a5a99:
 
 - int **Spacing** **{** get; set; **}**
+
+.. _classwellfired_guacamole_views_listview_1a1d4b35b971188993ef37153040c8172f:
+
+- :ref:`UIColor<structwellfired_guacamole_data_uicolor>` **ScrollBarOutlineColor** **{** get; set; **}**
 
 .. _classwellfired_guacamole_views_listview_1ab9f8cbca53a9db61e5d4da515be81f77:
 
