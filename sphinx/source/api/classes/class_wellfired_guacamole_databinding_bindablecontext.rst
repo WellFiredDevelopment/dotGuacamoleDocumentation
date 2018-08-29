@@ -50,25 +50,49 @@ Breakdown
 
 - :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **Property** 
 
+    **Description**
+
+        View property which is bound to the VM. 
+
 .. _classwellfired_guacamole_databinding_bindablecontext_1a69c6eac9da3ab4c62078890eb18f2b1c:
 
 - string **TargetProperty** **{** get; set; **}**
+
+    **Description**
+
+        This is the property on the VM 
 
 .. _classwellfired_guacamole_databinding_bindablecontext_1a570376dd2f0031640f55ca016cf5d8a6:
 
 - object **Value** **{** get; set; **}**
 
+    **Description**
+
+        This is the value set on the view or sent to the VM after being converted. 
+
 .. _classwellfired_guacamole_databinding_bindablecontext_1a1360a000466ef75b316354673afc49d8:
 
 - INotifyPropertyChanged **Object** **{** get; set; **}**
+
+    **Description**
+
+        Object is the backing store (VM) 
 
 .. _classwellfired_guacamole_databinding_bindablecontext_1a029bab779d9b10e16d68057687e54946:
 
 - :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>` **InstancedBindingMode** **{** get; set; **}**
 
+    **Description**
+
+        This describe in which way the VM and View are bound. If it is not specified, the bindable property default :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>` is used. 
+
 .. _classwellfired_guacamole_databinding_bindablecontext_1a0d913a8632084bc9c9a2f958725094c8:
 
 - :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` **InstancedConverter** **{** get; set; **}**
+
+    **Description**
+
+        This can be specify to apply a custom conversion to the value. If not specified, the default ValueConverter is used. 
 
 .. _classwellfired_guacamole_databinding_bindablecontext_1a14966e1b8b37887b47bc4177b63af647:
 
