@@ -126,9 +126,9 @@ Public Methods
 protected-func
 ---------------
 
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_views_view_1a29529946b9f60205f006d1083c730e5b>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`OnViewPropertyChanged<classwellfired_guacamole_views_view_1a468e0cce296fc1546582a09fa28bb9ae>` **(** object sender, PropertyChangedEventArgs e **)**   |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -323,7 +323,7 @@ Breakdown
 
 - void **ResetBindingContext** **(** INotifyPropertyChanged newBindingContext **)**
 
-.. _classwellfired_guacamole_views_view_1a29529946b9f60205f006d1083c730e5b:
+.. _classwellfired_guacamole_views_view_1a468e0cce296fc1546582a09fa28bb9ae:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

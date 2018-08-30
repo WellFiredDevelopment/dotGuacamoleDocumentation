@@ -33,7 +33,7 @@ Public Methods
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a76bc96298dd2fd6aa175ccbed4cc3bdc>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a0c6c4b0c5f960583b692248d76bcb971>` **(** object sender, PropertyChangedEventArgs e **)**              |
+|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1aa8e52034ff6e748060b0a2ebd99519cf>` **(** object sender, PropertyChangedEventArgs e **)**          |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
@@ -51,7 +51,7 @@ Breakdown
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1a0c6c4b0c5f960583b692248d76bcb971:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_labelviewrenderer_1aa8e52034ff6e748060b0a2ebd99519cf:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

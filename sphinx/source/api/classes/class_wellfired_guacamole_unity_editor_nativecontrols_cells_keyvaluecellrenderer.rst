@@ -26,7 +26,7 @@ Public Methods
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a6cda26281a8ed3fdedbd8135425dc0eb>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1afdd47cae3c10e340734a1a8dc947661c>` **(** object sender, PropertyChangedEventArgs e **)**              |
+|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a546d9af14b5f28d4f5be96176f321d4a>` **(** object sender, PropertyChangedEventArgs e **)**          |
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 protected-func
@@ -47,9 +47,9 @@ Breakdown
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1afdd47cae3c10e340734a1a8dc947661c:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a546d9af14b5f28d4f5be96176f321d4a:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_cells_keyvaluecellrenderer_1a8c270c4cf6ba3201e451b14964cb6133:
 

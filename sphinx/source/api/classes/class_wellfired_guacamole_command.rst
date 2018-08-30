@@ -8,7 +8,7 @@ Command
 **Implements:** :ref:`WellFired.Guacamole.ICommand<interfacewellfired_guacamole_icommand>`
 
 
-**Inherits:** :ref:`WellFired.Guacamole.DataBinding.NotifyBase<classwellfired_guacamole_databinding_notifybase>`
+**Inherits:** :ref:`WellFired.Guacamole.DataBinding.ObservableBase<classwellfired_guacamole_databinding_observablebase>`
 
 
 Description

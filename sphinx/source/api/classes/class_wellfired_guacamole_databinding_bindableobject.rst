@@ -38,21 +38,14 @@ Public Methods
 ---------------
 
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Bind<classwellfired_guacamole_databinding_bindableobject_1a314a28bfee3064ec96f6d3bcff7e9f20>` **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string targetProperty, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter **)**                                                                                                                               |
+|void         |:ref:`Bind<classwellfired_guacamole_databinding_bindableobject_1a25bcdba4bd32a8e019e7fe20cca6a2b7>` **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string sourceProperty, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter **)**                                                                                                                               |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`Bind<classwellfired_guacamole_databinding_bindableobject_1ae6ae3e261af048a13a15fee3d6d05f30>` **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string targetProperty, :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>`? bindingMode = null, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter = null **)**   |
+|void         |:ref:`Bind<classwellfired_guacamole_databinding_bindableobject_1ad7fb3662085461a4a7eb809d30fbe08c>` **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string sourceProperty, :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>`? bindingMode = null, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter = null **)**   |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |object       |:ref:`GetValue<classwellfired_guacamole_databinding_bindableobject_1a1d01908419c0840ea1cf9951cbc6ddd7>` **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty **)**                                                                                                                                                                                                                                                        |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |bool         |:ref:`SetValue<classwellfired_guacamole_databinding_bindableobject_1a95bfdfcb7de36a90a247bb29e8e73410>` **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, object value **)**                                                                                                                                                                                                                                          |
 +-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-protected-func
----------------
-
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`OnPropertyChanged<classwellfired_guacamole_databinding_bindableobject_1a46e10da81886bb3c2a3f46ad9a1d227f>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -69,13 +62,13 @@ Breakdown
 
 - PropertyChangedEventHandler **PropertyChanged** 
 
-.. _classwellfired_guacamole_databinding_bindableobject_1a314a28bfee3064ec96f6d3bcff7e9f20:
+.. _classwellfired_guacamole_databinding_bindableobject_1a25bcdba4bd32a8e019e7fe20cca6a2b7:
 
-- void **Bind** **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string targetProperty, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter **)**
+- void **Bind** **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string sourceProperty, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter **)**
 
-.. _classwellfired_guacamole_databinding_bindableobject_1ae6ae3e261af048a13a15fee3d6d05f30:
+.. _classwellfired_guacamole_databinding_bindableobject_1ad7fb3662085461a4a7eb809d30fbe08c:
 
-- void **Bind** **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string targetProperty, :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>`? bindingMode = null, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter = null **)**
+- void **Bind** **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, string sourceProperty, :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>`? bindingMode = null, :ref:`IValueConverter<interfacewellfired_guacamole_databinding_converter_ivalueconverter>` converter = null **)**
 
     **Description**
 
@@ -86,7 +79,7 @@ Breakdown
         +-------------------+--------------------------------------------------------------------------------------------+
         |bindableProperty   |                                                                                            |
         +-------------------+--------------------------------------------------------------------------------------------+
-        |targetProperty     |                                                                                            |
+        |sourceProperty     |                                                                                            |
         +-------------------+--------------------------------------------------------------------------------------------+
         |bindingMode        |If this is not passed, we will default to using the binding monde on the passed property.   |
         +-------------------+--------------------------------------------------------------------------------------------+
@@ -100,8 +93,4 @@ Breakdown
 .. _classwellfired_guacamole_databinding_bindableobject_1a95bfdfcb7de36a90a247bb29e8e73410:
 
 - bool **SetValue** **(** :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` bindableProperty, object value **)**
-
-.. _classwellfired_guacamole_databinding_bindableobject_1a46e10da81886bb3c2a3f46ad9a1d227f:
-
-- void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

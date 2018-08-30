@@ -13,19 +13,19 @@ Description
 Public Properties
 ------------------
 
-+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-|:ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`Property<classwellfired_guacamole_databinding_bindablecontext_1a01ff0c5e33efdd0764ae7acbd4326fab>`    |
-+---------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+|:ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>`   |:ref:`BindableProperty<classwellfired_guacamole_databinding_bindablecontext_1a2c40b60efff9435c19a7d2e628ead092>`    |
++---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 
 Properties
 -----------
 
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                            |:ref:`TargetProperty<classwellfired_guacamole_databinding_bindablecontext_1a69c6eac9da3ab4c62078890eb18f2b1c>` **{** get; set; **}**         |
+|string                                                                                            |:ref:`SourceProperty<classwellfired_guacamole_databinding_bindablecontext_1abdf29cf1b6c5ebdc9aa6d3ac065536ef>` **{** get; set; **}**         |
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 |object                                                                                            |:ref:`Value<classwellfired_guacamole_databinding_bindablecontext_1a570376dd2f0031640f55ca016cf5d8a6>` **{** get; set; **}**                  |
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-|INotifyPropertyChanged                                                                            |:ref:`Object<classwellfired_guacamole_databinding_bindablecontext_1a1360a000466ef75b316354673afc49d8>` **{** get; set; **}**                 |
+|INotifyPropertyChanged                                                                            |:ref:`SourceObject<classwellfired_guacamole_databinding_bindablecontext_1aeaf4dd697823703b8efa0ff5bce118b5>` **{** get; set; **}**           |
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 |:ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>`   |:ref:`InstancedBindingMode<classwellfired_guacamole_databinding_bindablecontext_1a029bab779d9b10e16d68057687e54946>` **{** get; set; **}**   |
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
@@ -46,21 +46,17 @@ Public Methods
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_databinding_bindablecontext_1a01ff0c5e33efdd0764ae7acbd4326fab:
+.. _classwellfired_guacamole_databinding_bindablecontext_1a2c40b60efff9435c19a7d2e628ead092:
 
-- :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **Property** 
-
-    **Description**
-
-        View property which is bound to the VM. 
-
-.. _classwellfired_guacamole_databinding_bindablecontext_1a69c6eac9da3ab4c62078890eb18f2b1c:
-
-- string **TargetProperty** **{** get; set; **}**
+- :ref:`BindableProperty<classwellfired_guacamole_databinding_bindableproperty>` **BindableProperty** 
 
     **Description**
 
-        This is the property on the VM 
+        This is the property on the destination side. 
+
+.. _classwellfired_guacamole_databinding_bindablecontext_1abdf29cf1b6c5ebdc9aa6d3ac065536ef:
+
+- string **SourceProperty** **{** get; set; **}**
 
 .. _classwellfired_guacamole_databinding_bindablecontext_1a570376dd2f0031640f55ca016cf5d8a6:
 
@@ -68,15 +64,15 @@ Breakdown
 
     **Description**
 
-        This is the value set on the view or sent to the VM after being converted. 
+        This is the current value of the destination property. 
 
-.. _classwellfired_guacamole_databinding_bindablecontext_1a1360a000466ef75b316354673afc49d8:
+.. _classwellfired_guacamole_databinding_bindablecontext_1aeaf4dd697823703b8efa0ff5bce118b5:
 
-- INotifyPropertyChanged **Object** **{** get; set; **}**
+- INotifyPropertyChanged **SourceObject** **{** get; set; **}**
 
     **Description**
 
-        Object is the backing store (VM) 
+        This is the source object destination is bound to. 
 
 .. _classwellfired_guacamole_databinding_bindablecontext_1a029bab779d9b10e16d68057687e54946:
 
@@ -84,7 +80,7 @@ Breakdown
 
     **Description**
 
-        This describe in which way the VM and View are bound. If it is not specified, the bindable property default :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>` is used. 
+        This describe in which way the source and destination are bound. If it is not specified, the bindable property default :ref:`BindingMode<namespacewellfired_guacamole_databinding_1ad6762faf307c875f85396c308f5e3f7e>` is used. 
 
 .. _classwellfired_guacamole_databinding_bindablecontext_1a0d913a8632084bc9c9a2f958725094c8:
 
@@ -104,7 +100,7 @@ Breakdown
 
     **Description**
 
-        In this context, dest would typically be the UI (View) 
+        This is called when the value on the destination was changed (In a VMMV context it would be the View). 
 
     **Parameters**
 
@@ -118,7 +114,7 @@ Breakdown
 
     **Description**
 
-        In this context, source would typically be the backing store (VM) 
+        This is called when the value on the source was changed (In a VMMV context it would be the VM). 
 
     **Parameters**
 

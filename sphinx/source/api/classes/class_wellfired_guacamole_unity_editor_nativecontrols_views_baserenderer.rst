@@ -39,7 +39,7 @@ Public Methods
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_baserenderer_1ae1f6c95ba1306b196997a80ca965332a>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**        |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_baserenderer_1a3b24f57d4500e4f3192ace27ce3ce4cc>` **(** object sender, PropertyChangedEventArgs e **)**                   |
+|void         |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_baserenderer_1a1443a6cbeb49eacbb2e8c11b27a9fb73>` **(** object sender, PropertyChangedEventArgs e **)**               |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`ResetStyle<classwellfired_guacamole_unity_editor_nativecontrols_views_baserenderer_1a4b40177116d40c195b7e96ac563a8d8c>` **(**  **)**                                                                   |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -86,9 +86,9 @@ Breakdown
 
 - void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_baserenderer_1a3b24f57d4500e4f3192ace27ce3ce4cc:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_baserenderer_1a1443a6cbeb49eacbb2e8c11b27a9fb73:
 
-- void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_views_baserenderer_1a4b40177116d40c195b7e96ac563a8d8c:
 

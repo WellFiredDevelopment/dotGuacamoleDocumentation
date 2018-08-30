@@ -45,9 +45,9 @@ Public Methods
 protected-func
 ---------------
 
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_views_window_1a0d7c3aa43ed649b2daf92250ed327f73>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_views_window_1a24a511749ab1bdfc656d68d07f559830>` **(** object sender, PropertyChangedEventArgs e **)**   |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -80,7 +80,7 @@ Breakdown
 
 - void **SetContent** **(** :ref:`IView<interfacewellfired_guacamole_iview>` content **)**
 
-.. _classwellfired_guacamole_views_window_1a0d7c3aa43ed649b2daf92250ed327f73:
+.. _classwellfired_guacamole_views_window_1a24a511749ab1bdfc656d68d07f559830:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

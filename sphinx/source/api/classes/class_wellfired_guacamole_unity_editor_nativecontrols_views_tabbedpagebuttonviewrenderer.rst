@@ -16,14 +16,14 @@ Description
 Public Methods
 ---------------
 
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_tabbedpagebuttonviewrenderer_1a2698b135884b2a2732405a67a58aee27>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_tabbedpagebuttonviewrenderer_1a087e6e6f04ee49fa5f498c7305c79392>` **(** object sender, PropertyChangedEventArgs e **)**   |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_tabbedpagebuttonviewrenderer_1a2698b135884b2a2732405a67a58aee27:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_tabbedpagebuttonviewrenderer_1a087e6e6f04ee49fa5f498c7305c79392:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

@@ -21,7 +21,7 @@ Public Methods
 ---------------
 
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|             |:ref:`BindingExistsException<classwellfired_guacamole_databinding_exceptions_bindingexistsexception_1a447a51d2bb438ac2461a1008a74458ac>` **(** string bindablePropertyName, string newTargetProperty, string originalTargetProperty **)**   |
+|             |:ref:`BindingExistsException<classwellfired_guacamole_databinding_exceptions_bindingexistsexception_1a8d3be2aab1b7e15484a083ab904b3aec>` **(** string bindablePropertyName, string newSourceProperty, string originalSourceProperty **)**   |
 +-------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
@@ -31,7 +31,7 @@ Breakdown
 
 - override string **Message** 
 
-.. _classwellfired_guacamole_databinding_exceptions_bindingexistsexception_1a447a51d2bb438ac2461a1008a74458ac:
+.. _classwellfired_guacamole_databinding_exceptions_bindingexistsexception_1a8d3be2aab1b7e15484a083ab904b3aec:
 
--  **BindingExistsException** **(** string bindablePropertyName, string newTargetProperty, string originalTargetProperty **)**
+-  **BindingExistsException** **(** string bindablePropertyName, string newSourceProperty, string originalSourceProperty **)**
 

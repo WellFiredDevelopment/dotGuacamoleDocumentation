@@ -27,7 +27,7 @@ Public Methods
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`Render<interfacewellfired_guacamole_renderer_inativerenderer_1a12c7a25182483d24089234ccc20e1a37>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**        |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`OnPropertyChanged<interfacewellfired_guacamole_renderer_inativerenderer_1a1b07df8dfdf555163ad74f73c737dba3>` **(** object sender, PropertyChangedEventArgs e **)**                   |
+|void         |:ref:`OnViewPropertyChanged<interfacewellfired_guacamole_renderer_inativerenderer_1aa2aed2807866c280fcc02f11cc802f05>` **(** object sender, PropertyChangedEventArgs e **)**               |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`FocusControl<interfacewellfired_guacamole_renderer_inativerenderer_1a43579cf1423c215019c011085eda4190>` **(**  **)**                                                                 |
 +-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -57,9 +57,9 @@ Breakdown
 
 - void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _interfacewellfired_guacamole_renderer_inativerenderer_1a1b07df8dfdf555163ad74f73c737dba3:
+.. _interfacewellfired_guacamole_renderer_inativerenderer_1aa2aed2807866c280fcc02f11cc802f05:
 
-- void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
 .. _interfacewellfired_guacamole_renderer_inativerenderer_1a43579cf1423c215019c011085eda4190:
 

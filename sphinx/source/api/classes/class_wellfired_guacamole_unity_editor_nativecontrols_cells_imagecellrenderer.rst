@@ -26,7 +26,7 @@ Public Methods
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override void         |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_cells_imagecellrenderer_1a7214cdb5383342d4b829425a3e5ec952>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override async void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_cells_imagecellrenderer_1ab0923b1d2a0fa23cf59f7423a5b1088d>` **(** object sender, PropertyChangedEventArgs e **)**              |
+|override async void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_cells_imagecellrenderer_1af38619495d93b2be86c38bb4c78ce235>` **(** object sender, PropertyChangedEventArgs e **)**          |
 +----------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
@@ -40,7 +40,7 @@ Breakdown
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_imagecellrenderer_1ab0923b1d2a0fa23cf59f7423a5b1088d:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_imagecellrenderer_1af38619495d93b2be86c38bb4c78ce235:
 
-- override async void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override async void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

@@ -19,7 +19,7 @@ Public Methods
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_listviewrenderer_1afafe389adf7de89703e98f70f7ee012b>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**        |
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_listviewrenderer_1abd84137e227bc627452588fc9e78d4a3>` **(** object sender, PropertyChangedEventArgs e **)**                   |
+|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_listviewrenderer_1a40a924d47b5d07a1da80fff210b2fb5c>` **(** object sender, PropertyChangedEventArgs e **)**               |
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override bool   |:ref:`PushMaskStack<classwellfired_guacamole_unity_editor_nativecontrols_views_listviewrenderer_1a14015609bb994b7016f5da914d2917f2>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` maskRect **)**   |
 +----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -40,9 +40,9 @@ Breakdown
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_listviewrenderer_1abd84137e227bc627452588fc9e78d4a3:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_listviewrenderer_1a40a924d47b5d07a1da80fff210b2fb5c:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_views_listviewrenderer_1a14015609bb994b7016f5da914d2917f2:
 

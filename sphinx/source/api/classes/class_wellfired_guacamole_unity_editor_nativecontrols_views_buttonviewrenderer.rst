@@ -26,7 +26,7 @@ Public Methods
 +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_views_buttonviewrenderer_1a5e9c4c894a42fd7295d4101b2b729b6b>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
 +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_buttonviewrenderer_1a771709aced24ce226f0767519382c3fd>` **(** object sender, PropertyChangedEventArgs e **)**              |
+|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_views_buttonviewrenderer_1aea12b8fa30d725d2a23ad4eaf9d46d04>` **(** object sender, PropertyChangedEventArgs e **)**          |
 +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 protected-func
@@ -47,9 +47,9 @@ Breakdown
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_views_buttonviewrenderer_1a771709aced24ce226f0767519382c3fd:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_views_buttonviewrenderer_1aea12b8fa30d725d2a23ad4eaf9d46d04:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_views_buttonviewrenderer_1a345d8b6e36786b24cced3d31bf6b61cb:
 

@@ -26,7 +26,7 @@ Public Methods
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |override void   |:ref:`Render<classwellfired_guacamole_unity_editor_nativecontrols_cells_labelcellrenderer_1ad449bdd8f1a4fb6aea73a3a8f116e9a5>` **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**   |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_cells_labelcellrenderer_1a38c22dcc82108aa860d2d16d5b7f2ee8>` **(** object sender, PropertyChangedEventArgs e **)**              |
+|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_unity_editor_nativecontrols_cells_labelcellrenderer_1a8f5d3ec28c8fc13cd41654f993ad3608>` **(** object sender, PropertyChangedEventArgs e **)**          |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 protected-func
@@ -47,9 +47,9 @@ Breakdown
 
 - override void **Render** **(** :ref:`UIRect<structwellfired_guacamole_data_uirect>` renderRect **)**
 
-.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_labelcellrenderer_1a38c22dcc82108aa860d2d16d5b7f2ee8:
+.. _classwellfired_guacamole_unity_editor_nativecontrols_cells_labelcellrenderer_1a8f5d3ec28c8fc13cd41654f993ad3608:
 
-- override void **OnPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
 .. _classwellfired_guacamole_unity_editor_nativecontrols_cells_labelcellrenderer_1aed166ef5e793832416a61927d3182ec1:
 
