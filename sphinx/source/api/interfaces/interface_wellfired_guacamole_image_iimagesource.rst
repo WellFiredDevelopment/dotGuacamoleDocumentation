@@ -13,9 +13,11 @@ Description
 Properties
 -----------
 
-+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
-|Action< :ref:`LoadedImage<classwellfired_guacamole_image_loadedimage>` >   |:ref:`OnComplete<interfacewellfired_guacamole_image_iimagesource_1a9263b96aed8de39c2646e1567f5bccde>` **{** get; set; **}**   |
-+---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|Action< :ref:`LoadedImage<classwellfired_guacamole_image_loadedimage>` >   |:ref:`OnComplete<interfacewellfired_guacamole_image_iimagesource_1a9263b96aed8de39c2646e1567f5bccde>` **{** get; set; **}**            |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`UIPadding<structwellfired_guacamole_data_uipadding>`                 |:ref:`NineSliceDefinition<interfacewellfired_guacamole_image_iimagesource_1a781740991b0258470ccc91dfb1f05f81>` **{** get; set; **}**   |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -32,6 +34,10 @@ Breakdown
 .. _interfacewellfired_guacamole_image_iimagesource_1a9263b96aed8de39c2646e1567f5bccde:
 
 - Action< :ref:`LoadedImage<classwellfired_guacamole_image_loadedimage>` > **OnComplete** **{** get; set; **}**
+
+.. _interfacewellfired_guacamole_image_iimagesource_1a781740991b0258470ccc91dfb1f05f81:
+
+- :ref:`UIPadding<structwellfired_guacamole_data_uipadding>` **NineSliceDefinition** **{** get; set; **}**
 
 .. _interfacewellfired_guacamole_image_iimagesource_1a9bb0bbfd1ea23f100e6b67e99ae6bbe1:
 
