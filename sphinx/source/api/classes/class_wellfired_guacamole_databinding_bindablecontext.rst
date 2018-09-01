@@ -21,7 +21,7 @@ Properties
 -----------
 
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                            |:ref:`SourceProperty<classwellfired_guacamole_databinding_bindablecontext_1abdf29cf1b6c5ebdc9aa6d3ac065536ef>` **{** get; set; **}**         |
+|string                                                                                            |:ref:`SourcePropertyName<classwellfired_guacamole_databinding_bindablecontext_1a1ae1933a9eb42afe0c8170ac1ec3a8ae>` **{** get; set; **}**     |
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 |object                                                                                            |:ref:`Value<classwellfired_guacamole_databinding_bindablecontext_1a570376dd2f0031640f55ca016cf5d8a6>` **{** get; set; **}**                  |
 +--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
@@ -35,13 +35,13 @@ Properties
 Public Methods
 ---------------
 
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-|object       |:ref:`GetValue<classwellfired_guacamole_databinding_bindablecontext_1a14966e1b8b37887b47bc4177b63af647>` **(**  **)**                         |
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`SetValueFromDest<classwellfired_guacamole_databinding_bindablecontext_1af6853040e046b8efc8962e3d9616408e>` **(** object value **)**     |
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`SetValueFromSource<classwellfired_guacamole_databinding_bindablecontext_1a74c2c6a431b10113010c2d87f6247ad0>` **(** object value **)**   |
-+-------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`SetValueFromDest<classwellfired_guacamole_databinding_bindablecontext_1af6853040e046b8efc8962e3d9616408e>` **(** object value **)**        |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`InitializeSourceValue<classwellfired_guacamole_databinding_bindablecontext_1a579b296eee9f1ed3376a601fd4406c71>` **(** object value **)**   |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`SetValueFromSource<classwellfired_guacamole_databinding_bindablecontext_1ab8d03c4176e1a91ca1d7cdf328fd1131>` **(**  **)**                  |
++-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -54,9 +54,9 @@ Breakdown
 
         This is the property on the destination side. 
 
-.. _classwellfired_guacamole_databinding_bindablecontext_1abdf29cf1b6c5ebdc9aa6d3ac065536ef:
+.. _classwellfired_guacamole_databinding_bindablecontext_1a1ae1933a9eb42afe0c8170ac1ec3a8ae:
 
-- string **SourceProperty** **{** get; set; **}**
+- string **SourcePropertyName** **{** get; set; **}**
 
 .. _classwellfired_guacamole_databinding_bindablecontext_1a570376dd2f0031640f55ca016cf5d8a6:
 
@@ -90,10 +90,6 @@ Breakdown
 
         This can be specify to apply a custom conversion to the value. If not specified, the default ValueConverter is used. 
 
-.. _classwellfired_guacamole_databinding_bindablecontext_1a14966e1b8b37887b47bc4177b63af647:
-
-- object **GetValue** **(**  **)**
-
 .. _classwellfired_guacamole_databinding_bindablecontext_1af6853040e046b8efc8962e3d9616408e:
 
 - bool **SetValueFromDest** **(** object value **)**
@@ -108,13 +104,13 @@ Breakdown
         |value        |
         +-------------+
         
-.. _classwellfired_guacamole_databinding_bindablecontext_1a74c2c6a431b10113010c2d87f6247ad0:
+.. _classwellfired_guacamole_databinding_bindablecontext_1a579b296eee9f1ed3376a601fd4406c71:
 
-- bool **SetValueFromSource** **(** object value **)**
+- void **InitializeSourceValue** **(** object value **)**
 
     **Description**
 
-        This is called when the value on the source was changed (In a VMMV context it would be the VM). 
+        This initialize the value of the source. It is called before binding occurs. 
 
     **Parameters**
 
@@ -122,3 +118,11 @@ Breakdown
         |value        |
         +-------------+
         
+.. _classwellfired_guacamole_databinding_bindablecontext_1ab8d03c4176e1a91ca1d7cdf328fd1131:
+
+- bool **SetValueFromSource** **(**  **)**
+
+    **Description**
+
+        This is called when the value on the source was changed (In a VMMV context it would be the VM). 
+
