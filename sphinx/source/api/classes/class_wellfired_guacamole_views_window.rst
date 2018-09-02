@@ -42,13 +42,6 @@ Public Methods
 |void            |:ref:`SetContent<classwellfired_guacamole_views_window_1af048fcb081de46d728d8b17447934725>` **(** :ref:`IView<interfacewellfired_guacamole_iview>` content **)**                                                                                                                                                          |
 +----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-protected-func
----------------
-
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_views_window_1a24a511749ab1bdfc656d68d07f559830>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
 Breakdown
 ----------
 
@@ -79,8 +72,4 @@ Breakdown
 .. _classwellfired_guacamole_views_window_1af048fcb081de46d728d8b17447934725:
 
 - void **SetContent** **(** :ref:`IView<interfacewellfired_guacamole_iview>` content **)**
-
-.. _classwellfired_guacamole_views_window_1a24a511749ab1bdfc656d68d07f559830:
-
-- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
