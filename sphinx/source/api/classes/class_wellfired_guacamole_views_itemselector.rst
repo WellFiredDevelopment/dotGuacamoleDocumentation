@@ -20,8 +20,6 @@ Public Methods
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |void         |:ref:`RegisterNewSelectedItems<classwellfired_guacamole_views_itemselector_1a9c72a7c4e9ae8471f32d0d0679d52010>` **(**  **)**                                                              |
 +-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`ResetSelectedItems<classwellfired_guacamole_views_itemselector_1aeae497447f8f0c8296d6f2a681bad81f>` **(**  **)**                                                                    |
-+-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -38,7 +36,7 @@ Breakdown
 
 - void **RegisterNewSelectedItems** **(**  **)**
 
-.. _classwellfired_guacamole_views_itemselector_1aeae497447f8f0c8296d6f2a681bad81f:
+    **Description**
 
-- void **ResetSelectedItems** **(**  **)**
+        Called when the observable collection of selected items is replaced by a new one 
 
