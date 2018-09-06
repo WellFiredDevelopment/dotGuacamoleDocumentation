@@ -35,13 +35,13 @@ Properties
 Public Methods
 ---------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`SetValueFromDest<classwellfired_guacamole_databinding_bindablecontext_1af6853040e046b8efc8962e3d9616408e>` **(** object value **)**        |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`InitializeSourceValue<classwellfired_guacamole_databinding_bindablecontext_1a579b296eee9f1ed3376a601fd4406c71>` **(** object value **)**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-|bool         |:ref:`SetValueFromSource<classwellfired_guacamole_databinding_bindablecontext_1ab8d03c4176e1a91ca1d7cdf328fd1131>` **(**  **)**                  |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+|             |:ref:`BindableContext<classwellfired_guacamole_databinding_bindablecontext_1a84b90147b7f3e41444b177368e1d6c9c>` **(** object initialValue **)**   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`SetValueFromDest<classwellfired_guacamole_databinding_bindablecontext_1af6853040e046b8efc8962e3d9616408e>` **(** object value **)**         |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+|bool         |:ref:`SetValueFromSource<classwellfired_guacamole_databinding_bindablecontext_1ab8d03c4176e1a91ca1d7cdf328fd1131>` **(**  **)**                   |
++-------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -90,6 +90,10 @@ Breakdown
 
         This can be specify to apply a custom conversion to the value. If not specified, the default ValueConverter is used. 
 
+.. _classwellfired_guacamole_databinding_bindablecontext_1a84b90147b7f3e41444b177368e1d6c9c:
+
+-  **BindableContext** **(** object initialValue **)**
+
 .. _classwellfired_guacamole_databinding_bindablecontext_1af6853040e046b8efc8962e3d9616408e:
 
 - bool **SetValueFromDest** **(** object value **)**
@@ -97,20 +101,6 @@ Breakdown
     **Description**
 
         This is called when the value on the destination was changed (In a VMMV context it would be the View). 
-
-    **Parameters**
-
-        +-------------+
-        |value        |
-        +-------------+
-        
-.. _classwellfired_guacamole_databinding_bindablecontext_1a579b296eee9f1ed3376a601fd4406c71:
-
-- void **InitializeSourceValue** **(** object value **)**
-
-    **Description**
-
-        This initialize the value of the source. It is called before binding occurs. 
 
     **Parameters**
 

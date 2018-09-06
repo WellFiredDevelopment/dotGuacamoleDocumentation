@@ -126,9 +126,9 @@ Public Methods
 protected-func
 ---------------
 
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void         |:ref:`OnViewPropertyChanged<classwellfired_guacamole_views_view_1a468e0cce296fc1546582a09fa28bb9ae>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void         |:ref:`OnBindablePropertyChanged<classwellfired_guacamole_views_view_1af7ae67d6ecbb8a2d9675af800f3c8039>` **(** object sender, PropertyChangedEventArgs e **)**   |
++-------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -323,7 +323,7 @@ Breakdown
 
 - void **ResetBindingContext** **(** INotifyPropertyChanged newBindingContext **)**
 
-.. _classwellfired_guacamole_views_view_1a468e0cce296fc1546582a09fa28bb9ae:
+.. _classwellfired_guacamole_views_view_1af7ae67d6ecbb8a2d9675af800f3c8039:
 
-- void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- void **OnBindablePropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 

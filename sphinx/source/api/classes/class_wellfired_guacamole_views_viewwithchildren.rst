@@ -33,11 +33,11 @@ Properties
 protected-func
 ---------------
 
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                |:ref:`ViewWithChildren<classwellfired_guacamole_views_viewwithchildren_1a7bb5d2711679741db35448793a30d55a>` **(**  **)**                                                 |
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_views_viewwithchildren_1a8b96663e156a7c0a38e33da4da580db6>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                |:ref:`ViewWithChildren<classwellfired_guacamole_views_viewwithchildren_1a7bb5d2711679741db35448793a30d55a>` **(**  **)**                                                     |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`OnBindablePropertyChanged<classwellfired_guacamole_views_viewwithchildren_1a569f60a4b3bf45c605af6a706c006805>` **(** object sender, PropertyChangedEventArgs e **)**   |
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Public Methods
 ---------------
@@ -67,9 +67,9 @@ Breakdown
 
 -  **ViewWithChildren** **(**  **)**
 
-.. _classwellfired_guacamole_views_viewwithchildren_1a8b96663e156a7c0a38e33da4da580db6:
+.. _classwellfired_guacamole_views_viewwithchildren_1a569f60a4b3bf45c605af6a706c006805:
 
-- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnBindablePropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
 .. _classwellfired_guacamole_views_viewwithchildren_1a4c734ce8990a57e2a78b0761cb46022d:
 

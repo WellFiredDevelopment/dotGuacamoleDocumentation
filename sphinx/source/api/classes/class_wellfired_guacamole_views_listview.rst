@@ -122,19 +122,19 @@ Public Methods
 protected-func
 ---------------
 
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`ItemSourceChanged<classwellfired_guacamole_views_listview_1ae1c16ce24ed9c213d7c79fd39a83c343>` **(**  **)**                                                |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`ItemSourceCleared<classwellfired_guacamole_views_listview_1a04b92337b6d3ea5c905b8ea79f311e68>` **(**  **)**                                                |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`ItemAdded<classwellfired_guacamole_views_listview_1a7647bff29ca6cc7efd2a725fd645268c>` **(** object item, int index **)**                                  |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`ItemRemoved<classwellfired_guacamole_views_listview_1aacc1e109684568d446abed5afd72554e>` **(** object item **)**                                           |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`ItemReplaced<classwellfired_guacamole_views_listview_1a6cbfaa577f1fb8e4c2a5a73a5660e82a>` **(** object oldItem, object newItem, int index **)**            |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|override void   |:ref:`OnViewPropertyChanged<classwellfired_guacamole_views_listview_1a37995ce3a4569e45068f4c5b06fea7c1>` **(** object sender, PropertyChangedEventArgs e **)**   |
-+----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`ItemSourceChanged<classwellfired_guacamole_views_listview_1ae1c16ce24ed9c213d7c79fd39a83c343>` **(**  **)**                                                    |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`ItemSourceCleared<classwellfired_guacamole_views_listview_1a04b92337b6d3ea5c905b8ea79f311e68>` **(**  **)**                                                    |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`ItemAdded<classwellfired_guacamole_views_listview_1a7647bff29ca6cc7efd2a725fd645268c>` **(** object item, int index **)**                                      |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`ItemRemoved<classwellfired_guacamole_views_listview_1aacc1e109684568d446abed5afd72554e>` **(** object item **)**                                               |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`ItemReplaced<classwellfired_guacamole_views_listview_1a6cbfaa577f1fb8e4c2a5a73a5660e82a>` **(** object oldItem, object newItem, int index **)**                |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|override void   |:ref:`OnBindablePropertyChanged<classwellfired_guacamole_views_listview_1a12d7e9e51a1f52f2629bfd0e4aecc6d3>` **(** object sender, PropertyChangedEventArgs e **)**   |
++----------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -437,7 +437,7 @@ Breakdown
         |index        |The index into the ItemSource that you will find this item   |
         +-------------+-------------------------------------------------------------+
         
-.. _classwellfired_guacamole_views_listview_1a37995ce3a4569e45068f4c5b06fea7c1:
+.. _classwellfired_guacamole_views_listview_1a12d7e9e51a1f52f2629bfd0e4aecc6d3:
 
-- override void **OnViewPropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
+- override void **OnBindablePropertyChanged** **(** object sender, PropertyChangedEventArgs e **)**
 
