@@ -27,25 +27,25 @@ Public Properties
 Public Methods
 ---------------
 
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                                                                    |:ref:`UnityPlatformProvider<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a268f1d8dcecb5f28c5bdc8338d4a8b36>` **(** string applicationName, string companyName **)**   |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetPersonalDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c>` **(**  **)**                                            |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8>` **(**  **)**                                          |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                              |:ref:`OpenFolderPicker<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acb70b15fbc323a002f792bbe91bf5ab3>` **(** string title, string folder, string defaultName **)**   |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                              |:ref:`PathToSharedData<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a64cb0817a23e3ffc7418bae65846d041>` **(** string file **)**                                       |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                              |:ref:`PathToPersonalData<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1afde4d4e8ae61dd75252d077f38a715e5>` **(** string file **)**                                     |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string[]                                                                                            |:ref:`FindAssets<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a53c492cdef37b86ef381e91d5a4057e3>` **(** string search **)**                                           |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                                                                                                |:ref:`SelectAsset<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2ccbc0630a90d8c7eb5e029246365a68>` **(** string assetPath **)**                                       |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                                                                                                |:ref:`ShowLocation<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a55e5faa4b51ec3f64e813468f1f802ab>` **(** string path **)**                                           |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                                                 |:ref:`UnityPlatformProvider<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a268f1d8dcecb5f28c5bdc8338d4a8b36>` **(** string applicationName, string companyName **)**   |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>`   |:ref:`GetPersonalDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c>` **(**  **)**                                            |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8>` **(**  **)**                                          |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                           |:ref:`OpenFolderPicker<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1acb70b15fbc323a002f792bbe91bf5ab3>` **(** string title, string folder, string defaultName **)**   |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                           |:ref:`PathToSharedData<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a64cb0817a23e3ffc7418bae65846d041>` **(** string file **)**                                       |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                           |:ref:`PathToPersonalData<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1afde4d4e8ae61dd75252d077f38a715e5>` **(** string file **)**                                     |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string[]                                                                                         |:ref:`FindAssets<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a53c492cdef37b86ef381e91d5a4057e3>` **(** string search **)**                                           |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                                                                                             |:ref:`SelectAsset<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2ccbc0630a90d8c7eb5e029246365a68>` **(** string assetPath **)**                                       |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                                                                                             |:ref:`ShowLocation<classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a55e5faa4b51ec3f64e813468f1f802ab>` **(** string path **)**                                           |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -68,7 +68,7 @@ Breakdown
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a2c9bf116a11460877abd91513cc9d21c:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
 
     **Description**
 
@@ -76,7 +76,7 @@ Breakdown
 
 .. _classwellfired_guacamole_unity_editor_platform_unityplatformprovider_1a876cd4bc72c740c782fcb01527abbbb8:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
 
     **Description**
 

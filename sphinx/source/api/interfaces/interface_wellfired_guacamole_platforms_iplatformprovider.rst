@@ -24,23 +24,23 @@ Properties
 Public Methods
 ---------------
 
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetPersonalDataStorage<interfacewellfired_guacamole_platforms_iplatformprovider_1ad77b2d416c10915a23db0871fa89a111>` **(**  **)**                                            |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<interfacewellfired_guacamole_platforms_iplatformprovider_1a416431732b854c73e77837b7a4acf4bd>` **(**  **)**                                          |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                              |:ref:`OpenFolderPicker<interfacewellfired_guacamole_platforms_iplatformprovider_1ad7effda9cf33df6e8b4261b15d899a97>` **(** string title, string folder, string defaultName **)**   |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                              |:ref:`PathToSharedData<interfacewellfired_guacamole_platforms_iplatformprovider_1a60fd659f3da638c45275145cf31daf52>` **(** string file **)**                                       |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string                                                                                              |:ref:`PathToPersonalData<interfacewellfired_guacamole_platforms_iplatformprovider_1a6b7b25cbbde8b02d555058cecfad09b5>` **(** string file **)**                                     |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|string[]                                                                                            |:ref:`FindAssets<interfacewellfired_guacamole_platforms_iplatformprovider_1aeeff2815573d692f1058fca05b3b95c2>` **(** string search **)**                                           |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                                                                                                |:ref:`SelectAsset<interfacewellfired_guacamole_platforms_iplatformprovider_1ae01033ec2de3d8e727150d38baffe344>` **(** string assetPath **)**                                       |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|void                                                                                                |:ref:`ShowLocation<interfacewellfired_guacamole_platforms_iplatformprovider_1a7c4fb10c9ed8dd621cd45d7d323a88e7>` **(** string path **)**                                           |
-+----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>`   |:ref:`GetPersonalDataStorage<interfacewellfired_guacamole_platforms_iplatformprovider_1ad77b2d416c10915a23db0871fa89a111>` **(**  **)**                                            |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|:ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>`   |:ref:`GetTeamSharedDataStorage<interfacewellfired_guacamole_platforms_iplatformprovider_1a416431732b854c73e77837b7a4acf4bd>` **(**  **)**                                          |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                           |:ref:`OpenFolderPicker<interfacewellfired_guacamole_platforms_iplatformprovider_1ad7effda9cf33df6e8b4261b15d899a97>` **(** string title, string folder, string defaultName **)**   |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                           |:ref:`PathToSharedData<interfacewellfired_guacamole_platforms_iplatformprovider_1a60fd659f3da638c45275145cf31daf52>` **(** string file **)**                                       |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string                                                                                           |:ref:`PathToPersonalData<interfacewellfired_guacamole_platforms_iplatformprovider_1a6b7b25cbbde8b02d555058cecfad09b5>` **(** string file **)**                                     |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|string[]                                                                                         |:ref:`FindAssets<interfacewellfired_guacamole_platforms_iplatformprovider_1aeeff2815573d692f1058fca05b3b95c2>` **(** string search **)**                                           |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                                                                                             |:ref:`SelectAsset<interfacewellfired_guacamole_platforms_iplatformprovider_1ae01033ec2de3d8e727150d38baffe344>` **(** string assetPath **)**                                       |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|void                                                                                             |:ref:`ShowLocation<interfacewellfired_guacamole_platforms_iplatformprovider_1a7c4fb10c9ed8dd621cd45d7d323a88e7>` **(** string path **)**                                           |
++-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Breakdown
 ----------
@@ -71,7 +71,7 @@ Breakdown
 
 .. _interfacewellfired_guacamole_platforms_iplatformprovider_1ad77b2d416c10915a23db0871fa89a111:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>` **GetPersonalDataStorage** **(**  **)**
 
     **Description**
 
@@ -79,7 +79,7 @@ Breakdown
 
 .. _interfacewellfired_guacamole_platforms_iplatformprovider_1a416431732b854c73e77837b7a4acf4bd:
 
-- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_storages_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
+- :ref:`IDataStorageService<interfacewellfired_guacamole_datastorage_types_idatastorageservice>` **GetTeamSharedDataStorage** **(**  **)**
 
     **Description**
 
