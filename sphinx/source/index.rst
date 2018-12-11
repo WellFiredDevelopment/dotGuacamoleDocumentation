@@ -1,7 +1,7 @@
 .Guacamole Documentation
 ========================
 
-Welcome to the official documentation for .Guacamole the MVVM framework for Unity Editor Applications. We
+Welcome to the official documentation for `.Guacamole <https://wellfired.com/dotguacamole/dotguacamole/>`_ the MVVM framework for Unity Editor Applications. We
 recommend you read the :ref:`introduction page <doc_about_intro>` to get an overview of what this documentation
 has to offer.
 
